@@ -1,3 +1,3 @@
 # yijing
 
-## An interactive representation of the I Ching(Easy Changes)
+## An interactive representation of the I Ching (Easy Changes)

@@ -4,7 +4,7 @@ function App() {
 
   return (
 <>
-why not
+易經
 </>
   )
 }

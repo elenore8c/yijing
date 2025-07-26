@@ -1,0 +1,7 @@
+.title-char{
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    left: 50%;
+    font-size: 4rem;
+}

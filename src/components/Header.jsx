@@ -1,15 +1,13 @@
 import React from "react";
 import './Header.css';
 
-function Header() {
+export default function Header() {
 
   return (
 <>
-<div className="title-char">易經 <br/>
+<h1 className="title-char">易經 <br/>
 yijing <br/>
-easy changes</div>
+easy changes</h1>
 </>
   )
 }
-
-export default Header

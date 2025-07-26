@@ -1,12 +1,12 @@
-import React from "react"
+import { wilHex } from "../utils/wilHex"
+import Hex from "./Hex"
 
-function HexTable() {
 
-  return (
+export default function HexTable() {
+const hexGrid = wilHex.map((num, val) => <Hex num={val} />);
+return (
 <>
-易經
+{hexGrid}
 </>
   )
 }
-
-export default HexTable

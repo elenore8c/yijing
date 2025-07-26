@@ -1,8 +1,9 @@
-[
+export const wilHex = [
   {
     "num": 1,
     "hex": "\u4dc0",
-    "simpinyin": "乾\nqián",
+    "char": "乾",
+    "simpinyin": "qián",
     "name": "The Creative",
     "img": "The movement of heaven is full of power.\n Thus the superior one makes themself strong and untiring.",
     "thwan": "The creative works sublime success, furthering through perseverance.",
@@ -35,7 +36,8 @@
   {
     "num": 2,
     "hex": "\u4dc1",
-    "simpinyin": "坤\nkūn",
+    "char": "坤",
+    "simpinyin": "kūn",
     "name": "The Receptive",
     "img": "The earth's condition is receptive devotion.\n Thus the superior one who has breadth of character\n carries the outer world.",
     "thwan": "The Receptive brings about sublime success,\n furthering through the perseverance of a mare.\n If the superior one undertakes something and tries to lead,\n they go astray; But if one follows, they find guidance.\n It is favorable to find friends in the west and south,\n to forego friends in the east and north.\n Quiet perseverance brings good fortune.",
@@ -66,6 +68,7 @@
   {
     "num": 3,
     "hex": "\u4dc2",
+    "char": "",
     "simpinyin": "屯\nchún",
     "name": "Difficulty at the Beginning",
     "img": "Clouds and Thunder, thus the superior one brings order out of confusion.",
@@ -87,6 +90,7 @@
   {
     "num": 4,
     "hex": "\u4dc3",
+    "char": "",
     "simpinyin": "蒙\nméng",
     "name": "Youthful Folly",
     "img": "A spring wells up at the foot of the mountain, the image of youth:\n thus the superior one fosters their character by thoroughness in all their endeavors.",
@@ -108,6 +112,7 @@
   {
     "num": 5,
     "hex": "\u4dc4",
+    "char": "",
     "simpinyin": "需\nxū",
     "name": "Waiting (Nourishment)",
     "img": "Clouds rise up to heaven,\n thus the superior one eats and drinks,\n is joyous and of good cheer.",
@@ -129,6 +134,7 @@
   {
     "num": 6,
     "hex": "\u4dc5",
+    "char": "",
     "simpinyin": "訟\nsòng",
     "name": "Conflict",
     "img": "Heaven and water go their opposite ways,\n thus in all their transactions,\n the superior one carefully considers the beginning.",
@@ -150,6 +156,7 @@
   {
     "num": 7,
     "hex": "\u4dc6",
+    "char": "",
     "simpinyin": "師\nshī",
     "name": "The Army",
     "img": "In the middle of the earth is water,\n thus the superior one increases their masses\n by generosity toward the people.",
@@ -171,6 +178,7 @@
   {
     "num": 8,
     "hex": "\u4dc7",
+    "char": "",
     "simpinyin": "比\nbǐ",
     "name": "Holding Together (Union)",
     "img": "On the earth is water,\n thus rulers of antiquity bestowed the different states as fiefs\n and cultivated friendly relations with the feudal lords.",
@@ -192,6 +200,7 @@
   {
     "num": 9,
     "hex": "\u4dc8",
+    "char": "",
     "simpinyin": "小畜\nxiǎo chù",
     "name": "The Taming Power of the Small",
     "img": "The wind drives across heaven,\n thus the superior one refines the outward aspect of their nature.",
@@ -213,6 +222,7 @@
   {
     "num": 10,
     "hex": "\u4dc9",
+    "char": "",
     "simpinyin": "履\nlǚ",
     "name": "Treading (Conduct)",
     "img": "Heaven above, the lake below:\n thus the superior one discriminates between the high and low,\n and thereby fortifies the thinking of the people.",
@@ -234,6 +244,7 @@
   {
     "num": 11,
     "hex": "\u4dca",
+    "char": "",
     "simpinyin": "泰\ntài",
     "name": "Peace",
     "img": "Heaven and earth unite:\n Thus the ruler divides and completes the course of heaven and earth,\n they further and regulate the gifts of heaven and earth, and so aid the people.",
@@ -255,6 +266,7 @@
   {
     "num": 12,
     "hex": "\u4dcb",
+    "char": "",
     "simpinyin": "否\npǐ",
     "name": "Standstill (Stagnation)",
     "img": "Heaven and earth do not unite:\n thus the superior one falls back on their inner worth,\n in order to escape the difficulties.\n One does not permit themself to be honored with revenue.",
@@ -276,6 +288,7 @@
   {
     "num": 13,
     "hex": "\u4dcc",
+    "char": "",
     "simpinyin": "同人\ntóng rén",
     "name": "Fellowship with People",
     "img": "Heaven together with fire:\n thus the superior one organizes the clans\n and makes distinctions between things.",
@@ -297,6 +310,7 @@
   {
     "num": 14,
     "hex": "\u4dcd",
+    "char": "",
     "simpinyin": "大有\ndà yǒu",
     "name": "Possession in Great Measure",
     "img": "Fire in heaven above:\n thus the superior one curbs evil and furthers good,\n and thereby obeys the benevolent will of heaven.",
@@ -318,6 +332,7 @@
   {
     "num": 15,
     "hex": "\u4dce",
+    "char": "",
     "simpinyin": "謙\nqiān",
     "name": "Modesty",
     "img": "Within the earth, a mountain:\n thus the superior one reduces that which is too much,\n and augments that which is too little.\n One weighs things and makes them equal.",
@@ -339,6 +354,7 @@
   {
     "num": 16,
     "hex": "\u4dcf",
+    "char": "",
     "simpinyin": "豫\nyù",
     "name": " Enthusiasm",
     "img": "Thunder comes resounding out of the earth:\n thus the ancient rulers made music in order to honor their merit,\n and offered splendor to the Supreme Deity,\n inviting their ancestors to be present. ",
@@ -360,6 +376,7 @@
   {
     "num": 17,
     "hex": "\u4dd0",
+    "char": "",
     "simpinyin": "隨\nsuí",
     "name": "Following",
     "img": "Thunder in the middle of the lake,\n thus the superior one at nightfall goes indoors for rest and recuperation.",
@@ -381,6 +398,7 @@
   {
     "num": 18,
     "hex": "\u4dd1",
+    "char": "",
     "simpinyin": "蠱\ngǔ",
     "name": "Work on What Has Been Spoiled (Decay)",
     "img": "The wind blows low on the mountain:\n thus the superior one stirs up the people and strengthens their spirits.",
@@ -402,6 +420,7 @@
   {
     "num": 19,
     "hex": "\u4dd2",
+    "char": "",
     "simpinyin": "臨\nlín",
     "name": "Approach",
     "img": "The earth above the lake:\n thus the superior one is inexhaustible in their will to teach,\n and without limits in their tolerance and protection of the people.",
@@ -423,6 +442,7 @@
   {
     "num": 20,
     "hex": "\u4dd3",
+    "char": "",
     "simpinyin": "觀\nguān",
     "name": "Contemplation (View)",
     "img": "The wind blows over the earth:\n thus the kings of old visited the regions of the world,\n contemplated the people, and gave them instructions.",
@@ -444,6 +464,7 @@
   {
     "num": 21,
     "hex": "\u4dd4",
+    "char": "",
     "simpinyin": "噬嗑\nshì kè",
     "name": "Biting Through",
     "img": "Thunder and lightning:\n thus the rulers of antiquity made firm the laws\n through clearly defined penalties.",
@@ -465,6 +486,7 @@
   {
     "num": 22,
     "hex": "\u4dd5",
+    "char": "",
     "simpinyin": "賁\nbì",
     "name": "Grace",
     "img": "Fire at the foot of the mountain: thus does the superior one proceed when clearing up current affairs. But one does not decide controversial issues in this way.",
@@ -486,6 +508,7 @@
   {
     "num": 23,
     "hex": "\u4dd6",
+    "char": "",
     "simpinyin": "剝\nbō",
     "name": "Splitting Apart",
     "img": "The mountain rests on the earth:\n thus those above can ensure their position\n only by giving generously to those below.",
@@ -507,6 +530,7 @@
   {
     "num": 24,
     "hex": "\u4dd7",
+    "char": "",
     "simpinyin": "復\nfù",
     "name": "Return (The Turning Point)",
     "img": "Thunder within the earth:\n thus rulers of old closed the passes at the time of solstice.\n Merchants and strangers did not go about,\n and the ruler did not travel through the provinces.",
@@ -528,6 +552,7 @@
   {
     "num": 25,
     "hex": "\u4dd8",
+    "char": "",
     "simpinyin": "無妄\nwú wàng",
     "name": "Innocence (The Unexpected)",
     "img": "Under heaven thunder rolls:\n all things attain the natural state of innocence,\n thus the rulers of old, rich in virtue,\n and in harmony with the time,\n fostered and nourished all beings.",
@@ -549,6 +574,7 @@
   {
     "num": 26,
     "hex": "\u4dd9",
+    "char": "",
     "simpinyin": "大畜\ndà chù",
     "name": "The Taming Power of the Great ",
     "img": "Heaven within the mountain:\n thus the superior one acquaints themself with many sayings of antiquity\n and many deeds of the past,\n in order to strengthen their character thereby.",
@@ -570,6 +596,7 @@
   {
     "num": 27,
     "hex": "\u4dda",
+    "char": "",
     "simpinyin": "頤\nyí",
     "name": "Corners of the Mouth\n (Providing Nourishment)",
     "img": "At the foot of the mountain, thunder:\n thus the superior one is careful of their words\n and temperate in eating and drinking.",
@@ -591,6 +618,7 @@
   {
     "num": 28,
     "hex": "\u4ddb",
+    "char": "",
     "simpinyin": "大過\ndà guò",
     "name": "Preponderance of the Great",
     "img": "The lake rises above the trees:\n thus the superior one, when they stand alone, is unconcerned.\n And if they have to renounce the world,\n they are undaunted. ",
@@ -612,6 +640,7 @@
   {
     "num": 29,
     "hex": "\u4ddc",
+    "char": "",
     "simpinyin": "坎\nkǎn",
     "name": "The Abysmal (Water)",
     "img": "Water flows on uninterruptedly and reaches its goal:\n thus the superior one walks in lasting virtue and carries on the business of teaching. ",
@@ -633,6 +662,7 @@
   {
     "num": 30,
     "hex": "\u4ddd",
+    "char": "",
     "simpinyin": "離\nlí",
     "name": "The Clinging (Fire)",
     "img": "That which is bright rises twice:\n thus the great one, by perpetuating this brightness,\n illumines the four quarters of the world.",
@@ -654,6 +684,7 @@
   {
     "num": 31,
     "hex": "\u4dde",
+    "char": "",
     "simpinyin": "咸\nxián",
     "name": "Influence (Wooing)",
     "img": "A lake on the mountain:\n thus the superior one encourages people to approach\n by their readiness to receive them.",
@@ -675,6 +706,7 @@
   {
     "num": 32,
     "hex": "\u4ddf",
+    "char": "",
     "simpinyin": "恆\nhéng",
     "name": "Duration",
     "img": "Thunder and wind:\n thus the superior one stands firm\n and does not change their direction.",
@@ -696,6 +728,7 @@
   {
     "num": 33,
     "hex": "\u4de0",
+    "char": "",
     "simpinyin": "遯\ndùn",
     "name": "Retreat",
     "img": "Mountain under heaven:\n thus the superior one keeps the inferior one at a distance,\n not angrily but with reserve.",
@@ -717,6 +750,7 @@
   {
     "num": 34,
     "hex": "\u4de1",
+    "char": "",
     "simpinyin": "大壯\ndà zhuàng",
     "name": "The Power of the Great",
     "img": "Thunder in heaven above:\n thus the superior one does not tread upon paths\n that do not accord with established order.",
@@ -738,6 +772,7 @@
   {
     "num": 35,
     "hex": "\u4de2",
+    "char": "",
     "simpinyin": "晉\njìn",
     "name": "Progress",
     "img": "The sun rises over the earth:\n thus the superior one themself brightens their bright virtue.",
@@ -759,6 +794,7 @@
   {
     "num": 36,
     "hex": "\u4de3",
+    "char": "",
     "simpinyin": "明夷\nmíng yí",
     "name": "Darkening of the Light",
     "img": "The light has sunken into the earth:\n thus does the superior one live with the great mass:\n though one veils their light, it still shines.",
@@ -780,6 +816,7 @@
   {
     "num": 37,
     "hex": "\u4de4",
+    "char": "",
     "simpinyin": "家人\njiā rén",
     "name": "The Family (The Clan)",
     "img": "Wind comes forth from fire:\n thus the superior one has substance in their words\n and duration in their way of life.",
@@ -801,6 +838,7 @@
   {
     "num": 38,
     "hex": "\u4de5",
+    "char": "",
     "simpinyin": "睽\nkuí",
     "name": "Opposition",
     "img": "Fire above, lake below:\n thus amid fellowship the superior one retains their individuality.",
@@ -822,6 +860,7 @@
   {
     "num": 39,
     "hex": "\u4de6",
+    "char": "",
     "simpinyin": "蹇\njiǎn",
     "name": "Obstruction",
     "img": "Water on the mountain:\n thus the superior one turns their attention to themself\n and molds their character.",
@@ -843,6 +882,7 @@
   {
     "num": 40,
     "hex": "\u4de7",
+    "char": "",
     "simpinyin": "解\nxiè",
     "name": "Deliverance",
     "img": "Thunder and rain set in:\n thus the superior one pardons mistakes and forgives misdeeds.",
@@ -864,6 +904,7 @@
   {
     "num": 41,
     "hex": "\u4de8",
+    "char": "",
     "simpinyin": "損\nsǔn",
     "name": "Decrease",
     "img": "At the foot of the mountain, the lake:\n thus the superior one controls their anger and restrains their instincts.",
@@ -885,6 +926,7 @@
   {
     "num": 42,
     "hex": "\u4de9",
+    "char": "",
     "simpinyin": "益\nyì",
     "name": "Increase",
     "img": "Wind and thunder:\n thus if the superior one sees good, they imitate it;\n if one has faults, one rids themselves of them. ",
@@ -906,6 +948,7 @@
   {
     "num": 43,
     "hex": "\u4dea",
+    "char": "",
     "simpinyin": "夬\nguài",
     "name": "Break-Through (Revolution)",
     "img": "The lake has risen up to heaven:\n thus the superior one dispenses riches downward\n and refrains from resting on their virtue.",
@@ -927,6 +970,7 @@
   {
     "num": 44,
     "hex": "\u4deb",
+    "char": "",
     "simpinyin": "姤\ngòu",
     "name": "Coming to Meet",
     "img": "Under heaven, wind:\n thus does the prince act when disseminating their commands\n and proclaiming them to the four quarters of heaven.",
@@ -948,6 +992,7 @@
   {
     "num": 45,
     "hex": "\u4dec",
+    "char": "",
     "simpinyin": "萃\n cuì",
     "name": "Gathering Together\n (Massing)",
     "img": "Over the earth, the lake:\n thus the superior one renews their weapons in order to meet the unforeseen.",
@@ -969,6 +1014,7 @@
   {
     "num": 46,
     "hex": "\u4ded",
+    "char": "",
     "simpinyin": "升\nshēng",
     "name": "Pushing Upward",
     "img": "Within the earth, wood grows:\n thus the superior one of devoted character heaps up small things\n in order to achieve something high and great.",
@@ -990,6 +1036,7 @@
   {
     "num": 47,
     "hex": "\u4dee",
+    "char": "",
     "simpinyin": "困\nkùn",
     "name": "Oppression\n (Exhaustion)",
     "img": "There is no water in the lake:\n thus the superior one stakes their life on following their will.",
@@ -1011,6 +1058,7 @@
   {
     "num": 48,
     "hex": "\u4def",
+    "char": "",
     "simpinyin": "井\njǐng",
     "name": "The Well",
     "img": "Water over wood:\n thus the superior one encourages the people at their work,\n and exhorts them to help one another.",
@@ -1032,6 +1080,7 @@
   {
     "num": 49,
     "hex": "\u4df0",
+    "char": "",
     "simpinyin": "革\ngé",
     "name": "Revolution\n (Molting)",
     "img": "Fire in the lake:\n thus the superior one sets the calendar\n in order and makes the seasons clear.",
@@ -1053,6 +1102,7 @@
   {
     "num": 50,
     "hex": "\u4df1",
+    "char": "",
     "simpinyin": "鼎\ndǐng",
     "name": "The Caldron",
     "img": "Fire over wood:\n thus the superior one consolidates their fate\n by making their position correct.",
@@ -1074,6 +1124,7 @@
   {
     "num": 51,
     "hex": "\u4df2",
+    "char": "",
     "simpinyin": "震\nzhèn",
     "name": "The Arousing\n (Shock, Thunder)",
     "img": "Thunder repeated:\n thus in fear and trembling the superior one\n sets their life in order and examines themself.",
@@ -1095,6 +1146,7 @@
   {
     "num": 52,
     "hex": "\u4df3",
+    "char": "",
     "simpinyin": "艮\n gèn",
     "name": "Keeping Still\n (Mountain)",
     "img": "Mountains standing close together:\n thus the superior one does not permit\n their thoughts to go beyond their situation.",
@@ -1116,6 +1168,7 @@
   {
     "num": 53,
     "hex": "\u4df4",
+    "char": "",
     "simpinyin": "漸\njiàn",
     "name": "Development\n (Gradual Progress)",
     "img": "On the mountain, a tree:\n thus the superior one abides in dignity and virtue,\n in order to improve the mores.",
@@ -1137,6 +1190,7 @@
   {
     "num": 54,
     "hex": "\u4df5",
+    "char": "",
     "simpinyin": "歸妹\nguī mèi",
     "name": "The Marrying Maiden",
     "img": "Thunder over the lake:\n thus the superior one understands the transitory\n in the light of the eternity of the end.",
@@ -1158,6 +1212,7 @@
   {
     "num": 55,
     "hex": "\u4df6",
+    "char": "",
     "simpinyin": "豐\nfēng",
     "name": "Abundance\n (Fullness)",
     "img": "Both thunder and lightning come:\n thus the superior one decides lawsuits and carries out punishments.",
@@ -1179,6 +1234,7 @@
   {
     "num": 56,
     "hex": "\u4df7",
+    "char": "",
     "simpinyin": "旅\nlǚ",
     "name": "The Wanderer",
     "img": "Fire on the mountain:\n thus the superior one is clear-minded\n and cautious in imposing penalties,\n and protracts no lawsuits.",
@@ -1200,6 +1256,7 @@
   {
     "num": 57,
     "hex": "\u4df8",
+    "char": "",
     "simpinyin": "巽\n xùn",
     "name": "The Gentle\n (The Penetrating, Wind)",
     "img": "Winds following one upon the other:\n thus the superior one spreads their commands abroad\n and carries out their undertakings.",
@@ -1221,6 +1278,7 @@
   {
     "num": 58,
     "hex": "\u4df9",
+    "char": "",
     "simpinyin": "兌\nduì",
     "name": "The Joyous\n (Lake)",
     "img": "Lakes resting one on the other:\n thus the superior one joins with their friends for discussion and practice.",
@@ -1242,6 +1300,7 @@
   {
     "num": 59,
     "hex": "\u4dfa",
+    "char": "",
     "simpinyin": "渙\nhuàn",
     "name": "Dispersion\n (Dissolution)",
     "img": "The wind drives over the water:\n thus the rulers of old sacrificed to the Lord and built temples.",
@@ -1263,6 +1322,7 @@
   {
     "num": 60,
     "hex": "\u4dfb",
+    "char": "",
     "simpinyin": "節\njié",
     "name": "Limitation",
     "img": "Water over lake:\n thus the superior one creates number and measure,\n and examines the nature of virtue and correct conduct.",
@@ -1284,6 +1344,7 @@
   {
     "num": 61,
     "hex": "\u4dfc",
+    "char": "",
     "simpinyin": "中孚\nzhōng fú",
     "name": "Inner Truth",
     "img": "Wind over lake:\n thus the superior one discusses criminal cases\n in order to delay executions.",
@@ -1305,6 +1366,7 @@
   {
     "num": 62,
     "hex": "\u4dfd",
+    "char": "",
     "simpinyin": "小過\n xiǎo guò",
     "name": "Preponderance of the Small",
     "img": "Thunder on the mountain:\n thus in ones conduct\n the superior gives preponderance to reverence.\n In bereavement one gives preponderance to grief.\n In their expenditures one gives preponderance to thrift. ",
@@ -1326,6 +1388,7 @@
   {
     "num": 63,
     "hex": "\u4dfe",
+    "char": "",
     "simpinyin": "既濟\njì jì",
     "name": "After Completion",
     "img": "Water over fire:\n thus the superior one takes thought of misfortune\n and arms themself against it in advance.",
@@ -1347,6 +1410,7 @@
   {
     "num": 64,
     "hex": "\u4dff",
+    "char": "",
     "simpinyin": "未濟\n wèi jì \n ",
     "name": "Before Completion",
     "img": "Fire over water:\n thus the superior one is careful\n in the differentiation of things,\n so that each finds its place.",

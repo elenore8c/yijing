@@ -1,4 +1,4 @@
- <img width="100px" src="public\yijing.svg" />
+<p align="center"> <img width="100px" src="public\yijing.svg" /></p>
 
 # yijing
 

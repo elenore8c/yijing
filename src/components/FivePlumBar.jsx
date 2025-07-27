@@ -5,7 +5,7 @@ import { wilHex } from "../utils/wilHex";
 
 export default function FivePlumBar(){
 const [isShown, setIsShown] = useState(true);
-const handleClick = event => {
+const handleClick = () => {
     setIsShown(current => !current);
 };
 
@@ -84,12 +84,12 @@ let timeCode = getTimeCode();
 
 const [time, setTime] = useState(timeCode);
 
-// useEffect(() => {
-//   const interval = setInterval(() => setTime(timeCode), 1000 );
-//   return () => {
-//     clearInterval(interval);
-//   };
-// }, []);
+useEffect(() => {
+  const interval = setInterval(() => setTime(timeCode), 1000 );
+  return () => {
+    clearInterval(interval);
+  };
+}, []);
 
 function handleForwardStep(){
     return setDateTime(now.setHours(now.getHours() + 2))};

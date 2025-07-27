@@ -1,4 +1,5 @@
-# yijing ![yijing logo](C:\Users\elle\dev\web\yijing\public\yijing.svg"yi")
+ <img src="C:\Users\elle\dev\web\yijing\public\yijing.svg" />
+# yijing
 
 ## An interactive representation of the I Ching (Easy Changes)
 

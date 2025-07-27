@@ -1,4 +1,4 @@
- <img src="C:\Users\elle\dev\web\yijing\public\yijing.svg" />
+ <img src="public\yijing.svg" />
 
 # yijing
 

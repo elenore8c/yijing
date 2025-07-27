@@ -1,6 +1,6 @@
 <p align="center"> <img width="100px" src="public\yijing.svg" /></p>
 
-# yijing
+# <p align="center">yijing</p>
 
 ## An interactive representation of the I Ching (Easy Changes)
 

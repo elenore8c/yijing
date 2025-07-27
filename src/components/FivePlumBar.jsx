@@ -1,65 +1,55 @@
 import { React, useEffect, useState } from "react"
-import './DateTimeBar.css'
-import moonTime from 'moon-time'
-import FivePlum from "./FivePlum"
-import { wilHex } from "../utils/wilHex"
+import FivePlum from "./FivePlum";
+import moonTime from 'moon-time';
+import { wilHex } from "../utils/wilHex";
 
-export default function DateTimeBar(){
+export default function FivePlumBar(){
 const [isShown, setIsShown] = useState(true);
 const handleClick = event => {
     setIsShown(current => !current);
 };
 
-
-var getCZ = require('chinese-zodiac');
-
 const [ datetime, setDateTime ] = useState(new Date());
 
-let now = new Date(datetime);
+var now = new Date(datetime);
 
 var currentM = now.getMonth() + 1;
 var currentD = now.getUTCDate();
 var currentY = now.getFullYear();
 var currentT = now.getUTCHours();
 
-let moonTimes = moonTime({
+var moonTimes = moonTime({
     year: currentY,
     month: currentM,
     day: currentD,
 })
 
-const [ step, setStep ] = useState(now);
-
-
-
-let cz = getCZ(moonTimes.year);
-
-console.log(cz);
+console.log(moonTimes.year);
 
 function getYearCode(){
-  if (cz.name === 'Rat'){
+  if (moonTimes.zodiac === '鼠'){
     return 1;
-  } else if (cz.name === 'Ox'){
+  } else if (moonTimes.zodiac === '牛'){
     return 2;
-  } else if (cz.name === 'Tiger'){
+  } else if (moonTimes.zodiac === '虎'){
     return 3;
-  } else if (cz.name === 'Rabbit'){
+  } else if (moonTimes.zodiac === '兔'){
     return 4;
-  } else if (cz.name === 'Dragon'){
+  } else if (moonTimes.zodiac === '龙'){
     return 5;
-  } else if (cz.name === 'Snake'){
+  } else if (moonTimes.zodiac === '蛇'){
     return 6;
-  } else if (cz.name === 'Horse'){
+  } else if (moonTimes.zodiac === '马'){
     return 7;
-  } else if (cz.name === 'Goat'){
+  } else if (moonTimes.zodiac === '羊'){
     return 8;
-  } else if (cz.name === 'Monkey'){
+  } else if (moonTimes.zodiac === '猴'){
     return 9;
-  } else if (cz.name === 'Rooster'){
+  } else if (moonTimes.zodiac === '鸡'){
     return 10;
-  } else if (cz.name === 'Dog'){
+  } else if (moonTimes.zodiac === '狗'){
     return 11;
-  } else if (cz.name === 'Pig'){
+  } else if (moonTimes.zodiac === '猪'){
     return 12;
   }
 }
@@ -96,14 +86,14 @@ function getTimeCode(){
 
 let timeCode = getTimeCode();
 
-const [time, setTime] = useState(timeCode);
+// const [time, setTime] = useState(timeCode);
 
-useEffect(() => {
-  const interval = setInterval(() => setTime(timeCode), 1000 );
-  return () => {
-    clearInterval(interval);
-  };
-}, []);
+// useEffect(() => {
+//   const interval = setInterval(() => setTime(timeCode), 1000 );
+//   return () => {
+//     clearInterval(interval);
+//   };
+// }, []);
 
 function getFirstTri(){
   return (moonTimes.month + moonTimes.day + yearCode + timeCode) % 8;
@@ -316,7 +306,7 @@ function getHexNum(){
     }
 }
 
-let hexNumOne = getHexNum();
+let hexNumOne = (getHexNum() - 1);
 
 function getHexNum2(){
     if (hexNumOne === 1 && x === 1){
@@ -1091,7 +1081,7 @@ function getHexNum2(){
         
 }
 
-let hexNumTwo = getHexNum2();
+let hexNumTwo = (getHexNum2() - 1);
 
 function getHexNumNuc(){
     if (hexNumOne === 1 || hexNumOne === 43 ||hexNumOne === 44 || hexNumOne === 28){
@@ -1129,9 +1119,10 @@ function getHexNumNuc(){
     }
 }
 
-let hexNumNuc = getHexNumNuc();
+let hexNumNuc = (getHexNumNuc() - 1);
 
-console.log({datetime})
+console.log(hexNumNuc)
+
 return (
 <>
     <div className='datetime-bar'>
@@ -1146,7 +1137,7 @@ return (
     className='luna'
     >
         ☾
-        {moonTimes.month}/{moonTimes.day}/{moonTimes.year} {cz.character} {cz.mm_name} {cz.name} {yearCode}
+        {moonTimes.month}/{moonTimes.day}/{moonTimes.year} 
     </div>
     <div 
     className='time'>
@@ -1163,12 +1154,17 @@ return (
     </div>
     </div>
     {isShown && <FivePlum
-    wilHex={wilHex}
     hexNumOne={hexNumOne}
     hexNumTwo={hexNumTwo}
     hexNumNuc={hexNumNuc}
     />
     }
+
+    {/* <FivePlum
+    hexNumOne={hexNumOne}
+    hexNumTwo={hexNumTwo}
+    hexNumNuc={hexNumNuc}
+    /> */}
 </>
     )
 }

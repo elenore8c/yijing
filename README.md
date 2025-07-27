@@ -8,8 +8,11 @@ made with ReactJS featuring <a href="https://github.com/Liu-Jinshuai/moon-time">
 ### TO DO
 
 -Use grid to arrange the 64 hexagrams 8 x 8 in order and showing the hovered hexagram as well as it's nuclear content.
+
 -Style the date bar to be fixed at the bottom of the screen
+
 -fix the title to the top left
+
 -style for mobile first
+
 -include dropdown for timezone
- 

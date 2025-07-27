@@ -1,7 +1,7 @@
 <p align="center"> <img width="100px" src="public\yijing.svg" /></p>
 
-# <p align="center">易經</p>
-## <p align="center">yijing</p>
+### <p align="center">易經</p>
+### <p align="center">yijing</p>
 
 ## An interactive representation of the I Ching (Easy Changes)
 

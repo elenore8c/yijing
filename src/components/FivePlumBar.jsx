@@ -24,8 +24,6 @@ var moonTimes = moonTime({
     day: currentD,
 })
 
-console.log(moonTimes.year);
-
 function getYearCode(){
   if (moonTimes.zodiac === '鼠'){
     return 1;
@@ -53,9 +51,6 @@ function getYearCode(){
     return 12;
   }
 }
-
-let yearCode = getYearCode();
-
 function getTimeCode(){
   if (currentT === 0 || currentT === 23){
     return 1;
@@ -84,9 +79,10 @@ function getTimeCode(){
   }
 }
 
+let yearCode = getYearCode();
 let timeCode = getTimeCode();
 
-// const [time, setTime] = useState(timeCode);
+const [time, setTime] = useState(timeCode);
 
 // useEffect(() => {
 //   const interval = setInterval(() => setTime(timeCode), 1000 );
@@ -94,6 +90,11 @@ let timeCode = getTimeCode();
 //     clearInterval(interval);
 //   };
 // }, []);
+
+function handleForwardStep(){
+    return setDateTime(now.setHours(now.getHours() + 2))};
+function handleBackStep(){
+    return setDateTime(now.setHours(now.getHours() - 2))};
 
 function getFirstTri(){
   return (moonTimes.month + moonTimes.day + yearCode + timeCode) % 8;
@@ -105,11 +106,9 @@ function getX(){
  return (moonTimes.month + moonTimes.day + yearCode + timeCode) % 6;
 }
 
-
 let firstTri = getFirstTri(); 
 let secondTri = getSecondTri(); 
 let x = getX();
-
 
 function getHexNum(){
     if (firstTri === 1 && secondTri === 1){
@@ -247,22 +246,22 @@ function getHexNum(){
     else if (firstTri === 0 && secondTri === 2){
         return 45;
     }
-     else if (firstTri === 5 && secondTri === 0){
+    else if (firstTri === 5 && secondTri === 0){
         return 46;
     }
-     else if (firstTri === 6 && secondTri === 2){
+    else if (firstTri === 6 && secondTri === 2){
         return 47;
     }
     else if (firstTri === 5 && secondTri === 6){
         return 48;
     }
-     else if (firstTri === 3 && secondTri === 2){
+    else if (firstTri === 3 && secondTri === 2){
         return 49;
     }
-     else if (firstTri === 5 && secondTri === 3){
+    else if (firstTri === 5 && secondTri === 3){
         return 50;
     }
-     else if (firstTri === 4 && secondTri === 4){
+    else if (firstTri === 4 && secondTri === 4){
         return 51;
     }
     else if (firstTri === 7 && secondTri === 7){
@@ -290,7 +289,7 @@ function getHexNum(){
         return 59;
     }
     else if (firstTri === 2 && secondTri === 6){
-         return 60;
+        return 60;
     }
     else if (firstTri === 2 && secondTri === 5){
         return 61;
@@ -305,8 +304,7 @@ function getHexNum(){
         return 64;
     }
 }
-
-let hexNumOne = (getHexNum() - 1);
+let hexNumOne = getHexNum(); 
 
 function getHexNum2(){
     if (hexNumOne === 1 && x === 1){
@@ -1080,9 +1078,7 @@ function getHexNum2(){
     }
         
 }
-
-let hexNumTwo = (getHexNum2() - 1);
-
+let hexNumTwo = getHexNum2();
 function getHexNumNuc(){
     if (hexNumOne === 1 || hexNumOne === 43 ||hexNumOne === 44 || hexNumOne === 28){
         return 1;
@@ -1119,59 +1115,57 @@ function getHexNumNuc(){
     }
 }
 
-let hexNumNuc = (getHexNumNuc() - 1);
+let hexKeyOne = (hexNumOne - 1);
+let hexKeyTwo = (hexNumTwo - 1)
+let hexKeyNuc = (getHexNumNuc() -1);
 
-console.log(hexNumNuc)
+console.log('firstTri', firstTri);
+console.log('secondTri', secondTri);
+console.log('x', x)
+console.log(now);
+console.log('lunar', moonTimes.month, moonTimes.day, yearCode, timeCode);
+console.log('hexKeyOne result of firstTri & secondTri = [0-63] wilhex array key', hexKeyOne);
+console.log('hexKeyTwo result of hexNumOne & x = [0-63] wilhex array key', hexKeyTwo);
+console.log('hexKeyNuc = [0-63] wilhex array key', hexKeyNuc);
 
 return (
 <>
     <div className='datetime-bar'>
-        <input className="date-selector" 
-        type="datetime-local"
-        onChange={e => setDateTime(e.target.value)}/>
+        <input 
+            className="date-selector" 
+            type="datetime-local"
+            onChange={e => setDateTime(e.target.value)}
+         />
     <div className='greg'>
-        ☉
-        {currentM}/{currentD}/{currentY}
+        ☉{currentM}/{currentD}/{currentY}
     </div>
     <div 
     className='luna'
     >
-        ☾
-        {moonTimes.month}/{moonTimes.day}/{moonTimes.year} 
+        ☾{moonTimes.month}/{moonTimes.day}/{moonTimes.year} 
     </div>
     <div 
     className='time'>
         UT: {(currentT < 10 ? '0' : '') + currentT}:{(now.getUTCMinutes() < 10 ? '0' : '') + now.getMinutes()} - {timeCode}
-        <button>Prev</button>
-        <button>Next</button>
+        <button onClick={handleBackStep}>Prev</button>
+        <button onClick={handleForwardStep}>Next</button>
     </div> 
     <div onClick={handleClick} className='blossoms'>
-        {wilHex[(hexNumOne -1)].hex}
+        {wilHex[(hexKeyOne)].hex}
     <span className='x'>x:{x}</span>
     <span>
-        {wilHex[(hexNumTwo -1)].hex}{wilHex[(hexNumNuc -1)].hex}
+        {wilHex[(hexKeyTwo)].hex}{wilHex[(hexKeyNuc)].hex}
     </span>
     </div>
     </div>
     {isShown && <FivePlum
-    hexNumOne={hexNumOne}
-    hexNumTwo={hexNumTwo}
-    hexNumNuc={hexNumNuc}
+    hexKeyOne={hexKeyOne}
+    hexKeyTwo={hexKeyTwo}
+    hexKeyNuc={hexKeyNuc}
     />
     }
-
-    {/* <FivePlum
-    hexNumOne={hexNumOne}
-    hexNumTwo={hexNumTwo}
-    hexNumNuc={hexNumNuc}
-    /> */}
 </>
     )
 }
-// Write a form to input a specific gregorian date / time that is default to the current date / time.
-
 // Replace the number specifying the changing line with logic to change the position of x to align with the changing line.
 
-// write handler to increment timeCode up / down. Render updated date / time for blossoms shown.
-
-// write function for toggleBlossomHandler.

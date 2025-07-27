@@ -1,15 +1,15 @@
 import { React } from "react"
 import Hex from "./Hex"
 
-export default function FivePlum({ hexNumOne, hexNumTwo, hexNumNuc }){
+export default function FivePlum({ hexKeyOne, hexKeyTwo, hexKeyNuc }){
 return(
  <div className='five-plum'>
     <Hex
-    num={hexNumOne} />
+    num={hexKeyOne} />
     <Hex
-    num={hexNumTwo} />
+    num={hexKeyTwo} />
      <Hex
-     num={hexNumNuc} />
+   num={hexKeyNuc} />
 </div>
 )
 }

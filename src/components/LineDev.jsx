@@ -3,7 +3,7 @@ import { lines } from  "../utils/lines"
 import { tri } from "../utils/tri"
 
 export default function LineDev() {
-const triLib = tri.map((key, val) => <div>{tri[val].glyph}</div>)
+const triLib = tri.map((key, val) => <div key={val}>{tri[val].glyph}</div>)
   return (
   <>
     {triLib}

@@ -6,3 +6,67 @@ body{
   color: aquamarine;
   background-color: black;
 }
+
+input{
+  position: fixed;
+  bottom: 15px;
+  left: 0;
+  width: 95px;
+  height: 15px;
+  border: 0px;
+  border-style: dotted;
+  border-color: rgb(55, 43, 226);
+  color: rgba(0, 255, 234, 0.822);
+  background-color: rgba(10, 10, 10, 0.438);
+}
+
+.datetime-bar{
+  height: 2rem;
+  width: 100%;
+  position: fixed;
+  display: flexbox;
+  bottom: -13px;
+  right: 0px;
+  color: rgba(0, 255, 179, 0.493);
+  background-color: rgba(10, 10, 10, 0.726);
+}
+
+.greg{
+  font-size: 0.9rem;
+  position: fixed;
+  bottom: -3px;
+  left: 0px;
+  background-color: rgba(10, 10, 10, 0.726);
+  
+}
+
+.luna{
+  font-size: 0.9rem;
+  position: fixed;
+  bottom: -3px;
+  left: 75px;
+  background-color: rgba(10, 10, 10, 0.726);
+}
+
+.time{
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: -2px;
+  right: 70px;
+}
+
+button{
+  color: rgba(0, 255, 179, 0.493);
+  border-color: blueviolet;
+  border-radius: 15%;
+  border: 1px;
+  background-color: black;
+  font-size: 0.7rem;
+  /* position: fixed; */
+  /* bottom: 200px; */
+}
+
+.blossoms{
+  position: fixed;
+  right: 0px;
+}

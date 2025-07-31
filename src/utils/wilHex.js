@@ -30,7 +30,7 @@ export const wilHex = [
     "third": "Third 9:\n All day long the superior one is creatively active.\n At nightfall ones mind is still beset with cares. Danger. No blame.",
     "fourth": "Fourth 9:\n Wavering flying over the depths. No blame.",
     "fifth": "Fifth 9:\n Flying dragon in the heavens.\n It furthers one to see the great one.",
-    "sixth": "Sixth 9:\n Arrogant dragon will have cause to repent.",
+    "sixth": "Top 9:\n Arrogant dragon will have cause to repent.",
     "seventh": "Six 9's:\n There appears a flight of dragons without heads.\n Good fortune."
   },
   {
@@ -62,7 +62,7 @@ export const wilHex = [
     "third": "Third 6:\n Hidden lines. One is able to remain persevering.\n If by chance you are in the service of a king,\n seek not works, but bring to completion.",
     "fourth": "Fourth 6:\n A tied-up sack. No blame, no praise.",
     "fifth": "Fifth 6:\n A yellow lower garment brings supreme good fortune.",
-    "sixth": "Sixth 6:\n Dragon fight in the meadow.\n Their blood is black and yellow.",
+    "sixth": "Top 6:\n Dragon fight in the meadow.\n Their blood is black and yellow.",
     "seventh": "Six 6's:\n Lasting perseverance furthers."
   },
   {
@@ -84,7 +84,7 @@ export const wilHex = [
     "third": "Third 6:\n Whoever hunts deer without the forester loses their way in the forest.",
     "fourth": "Fourth 6:\n Horse and wagon part. Strive for union. To go brings good fortune.",
     "fifth": "Fifth 9:\n Difficulties in the blessing. A little perseverance brings good fortune.\n Great perseverance brings misfortune.",
-    "sixth": "Sixth 6:\n Horse and wagon part. Bloody tears flow.",
+    "sixth": "Top 6:\n Horse and wagon part. Bloody tears flow.",
     "seventh": ""
   },
   {
@@ -106,7 +106,7 @@ export const wilHex = [
     "third": "Third 6:\n Take not a maiden who, when she sees a man of bronze, loses possession of herself. Nothing furthers.",
     "fourth": "Fourth 6:\n Entangled folly brings humiliation.",
     "fifth": "Fifth 6:\n Childlike folly brings good fortune.",
-    "sixth": "Sixth 9:\n In punishing folly it does not further one to commit transgressions.\n The only thing that furthers is to prevent transgressions.",
+    "sixth": "Top 9:\n In punishing folly it does not further one to commit transgressions.\n The only thing that furthers is to prevent transgressions.",
     "seventh": ""
   },
   {
@@ -128,7 +128,7 @@ export const wilHex = [
     "third": "Third 9:\n Waiting in the mud brings about the arrival of the enemy.",
     "fourth": "Fourth 6:\n Waiting in blood. Get out of the pit.",
     "fifth": "Fifth 9:\n Waiting at meat and drink. Perseverance brings good fortune.",
-    "sixth": "Sixth 6:\n One falls into the pit. Three uninvited guests arrive.\n Honor them, and in the end there will be good fortune.",
+    "sixth": "Top 6:\n One falls into the pit. Three uninvited guests arrive.\n Honor them, and in the end there will be good fortune.",
     "seventh": ""
   },
   {
@@ -150,7 +150,7 @@ export const wilHex = [
     "third": "Third 6:\n To nourish oneself on ancient virtue induces perseverance.\n Danger. In the end, good fortune comes.\n If by chance you are in the service of a king, seek not works.",
     "fourth": "Fourth 9:\n One cannot engage in conflict. One turns back and submits to fate,\n changes one's attitude, and finds peace in perseverance.\n Good fortune.",
     "fifth": "Fifth 9:\n To contend before them brings supreme good fortune.",
-    "sixth": "Sixth 9:\n Even if by chance a leather belt is bestowed on one,\n by the end of the morning it will have been snatched away three times.",
+    "sixth": "Top 9:\n Even if by chance a leather belt is bestowed on one,\n by the end of the morning it will have been snatched away three times.",
     "seventh": ""
   },
   {
@@ -172,7 +172,7 @@ export const wilHex = [
     "third": "Third 6:\n Perchance the army carries corpses in the wagon. Misfortune.",
     "fourth": "Fourth 6:\n The army retreats. No blame.",
     "fifth": "Fifth 6:\n There is game in the field. It furthers one to catch it.\n Without blame. Let the eldest lead the army.\n The younger transports corpses;\n then perseverance brings misfortune.",
-    "sixth": "Sixth 6:\n The great prince issues commands,\n founds states, vests families with fiefs.\n Inferior people should not be employed.",
+    "sixth": "Top 6:\n The great prince issues commands,\n founds states, vests families with fiefs.\n Inferior people should not be employed.",
     "seventh": ""
   },
   {
@@ -194,7 +194,7 @@ export const wilHex = [
     "third": "Third 6:\n You hold together with the wrong people.",
     "fourth": "Fourth 6:\n Holding to oneself outwardly also. Perseverance brings good fortune.",
     "fifth": "Fifth 9:\n Manifestations of holding together.\n In the hunt for the ruler uses beaters on three sides only\n and foregoes game that runs off in front.\n The citizens need no warning.\n Good fortune.",
-    "sixth": "Sixth 6:\n One finds no head for holding together. Misfortune.",
+    "sixth": "Top 6:\n One finds no head for holding together. Misfortune.",
     "seventh": ""
   },
   {
@@ -216,7 +216,7 @@ export const wilHex = [
     "third": "Third 9:\n The spokes burst out of the wagon wheels.\n Man and wife roll their eyes.",
     "fourth": "Fourth 6:\n If you are sincere,\n blood vanishes and fear gives way.\n No blame.",
     "fifth": "Fifth 9:\n If you are sincere and loyally attached,\n you are rich in your neighbor.",
-    "sixth": "Sixth 9:\n The rain comes, there is rest.\n This is due to the lasting effect of character.\n Perseverance brings the woman into danger.\n The moon is nearly full.\n If the superior one persists, misfortune comes.",
+    "sixth": "Top 9:\n The rain comes, there is rest.\n This is due to the lasting effect of character.\n Perseverance brings the woman into danger.\n The moon is nearly full.\n If the superior one persists, misfortune comes.",
     "seventh": ""
   },
   {
@@ -238,7 +238,7 @@ export const wilHex = [
     "third": "Third 6:\n A one-eyed person is able to see, a lame person able to tread.\n One treads on the tail of a tiger. The tiger bites them. Misfortune.\n Thus does a warrior act on behalf of their great prince.",
     "fourth": "Fourth 9:\n One treads on the tail of the tiger. Caution and circumspection lead ultimately to good fortune. ",
     "fifth": "Fifth 9:\n Resolute conduct. Perseverance with awareness of danger.",
-    "sixth": "Sixth 9:\n Look to your conduct and weigh the favorable signs.\n When everything is fulfilled, supreme good fortune comes.",
+    "sixth": "Top 9:\n Look to your conduct and weigh the favorable signs.\n When everything is fulfilled, supreme good fortune comes.",
     "seventh": ""
   },
   {
@@ -260,7 +260,7 @@ export const wilHex = [
     "third": "Third 9:\n No plain not followed by a slope. No going not followed by a return.\n One who remains persevering in danger is without blame.\n Do not complain about this truth; enjoy the good fortune you still possess.",
     "fourth": "Fourth 6:\n One flutters down, not boasting of their wealth,\n together with their neighbor, guileless and sincere.",
     "fifth": "Fifth 6:\n The sovereign I gives his daughter in marriage.\n This brings blessing and supreme good fortune.",
-    "sixth": "Sixth 6:\n The wall falls back into the moat. Use no army now.\n Make your commands known within your own town.\n Perseverance brings humiliation.",
+    "sixth": "Top 6:\n The wall falls back into the moat. Use no army now.\n Make your commands known within your own town.\n Perseverance brings humiliation.",
     "seventh": ""
   },
   {
@@ -282,7 +282,7 @@ export const wilHex = [
     "third": "Third 6:\n They bear shame.",
     "fourth": "Fourth 9:\n One who acts at the command of the highest remains without blame.\n Those of like mind partake of the blessing.",
     "fifth": "Fifth 9:\n Standstill is giving way. Good fortune for the great one. \n'What if it should fail, what if it should fail?'\n In this way one ties it to a cluster of mulberry shoots.",
-    "sixth": "Sixth 9:\n The standstill comes to an end. First standstill, then good fortune.",
+    "sixth": "Top 9:\n The standstill comes to an end. First standstill, then good fortune.",
     "seventh": ""
   },
   {
@@ -304,7 +304,7 @@ export const wilHex = [
     "third": "Third 9:\n One hides weapons in the thickets;\n one climbs the high hill in front of it.\n For three years one does not rise up.",
     "fourth": "Fourth 9:\n One climbs up on their wall; one cannot attack. Good fortune.",
     "fifth": "Fifth 9:\n People bound in fellowship first weep and lament, but afterward they laugh.\n After great struggles they succeed in meeting.",
-    "sixth": "Sixth 9:\n Fellowship with people in the meadow. No remorse.",
+    "sixth": "Top 9:\n Fellowship with people in the meadow. No remorse.",
     "seventh": ""
   },
   {
@@ -326,7 +326,7 @@ export const wilHex = [
     "third": "Third 9:\n A prince offers it to the Son of Heaven. A petty man cannot do this.",
     "fourth": "Fourth 9:\n One makes a difference between oneself and their neighbor. No blame.",
     "fifth": "Fifth 6:\n One whose truth is accessible, yet dignified, has good fortune.",
-    "sixth": "Sixth 9:\n One is blessed by heaven. Good fortune. Nothing that does not further.",
+    "sixth": "Top 9:\n One is blessed by heaven. Good fortune. Nothing that does not further.",
     "seventh": ""
   },
   {
@@ -348,7 +348,7 @@ export const wilHex = [
     "third": "Third 9:\n A superior one of modesty and merit.\n Carries things to conclusion.\n Good fortune.",
     "fourth": "Fourth 9:\n Nothing that would not further modesty in movement.",
     "fifth": "Fifth 6:\n No boasting of wealth before one's neighbor.\n It is favorable to attack with force.",
-    "sixth": "Sixth 6:\n Modesty that comes to expression.\n It is favorable to set armies marching to chastise\n one's own city and one's country.",
+    "sixth": "Top 6:\n Modesty that comes to expression.\n It is favorable to set armies marching to chastise\n one's own city and one's country.",
     "seventh": ""
   },
   {
@@ -370,7 +370,7 @@ export const wilHex = [
     "third": "Third 6:\n Enthusiasm that looks upward creates remorse.\n Hesitation brings remorse.",
     "fourth": "Fourth 9:\n The source of enthusiasm . One achieves great things. Doubt not.\n You gather friends around you as a hair clasp gathers the hair.",
     "fifth": "Fifth 6:\n Persistently ill, and still does not die.",
-    "sixth": "Sixth 6:\n Deluded enthusiasm.\n But if after completion one changes,\n there is no blame.",
+    "sixth": "Top 6:\n Deluded enthusiasm.\n But if after completion one changes,\n there is no blame.",
     "seventh": ""
   },
   {
@@ -392,7 +392,7 @@ export const wilHex = [
     "third": "Third 6:\n If one clings to the strong, one loses the weak.\n Through following one finds what one seeks.\n It furthers one to remain persevering. ",
     "fourth": "Fourth 9:\n Following creates success. Perseverance brings misfortune.\n To go one's way with sincerity brings clarity.\n How could there be blame in this?",
     "fifth": "Fifth 9:\n Sincere in the good. Good fortune.",
-    "sixth": "Sixth 6:\n One meets with firm allegiance and is still further bound.\n The ruler introduces them to the Western Mountain.",
+    "sixth": "Top 6:\n One meets with firm allegiance and is still further bound.\n The ruler introduces them to the Western Mountain.",
     "seventh": ""
   },
   {
@@ -414,7 +414,7 @@ export const wilHex = [
     "third": "Third 9:\n Setting right what has been spoiled by the father. There will be a little remorse. No great blame.",
     "fourth": "Fourth 6:\n Tolerating what has been spoiled by the father. In continuing one sees humiliation.",
     "fifth": "Fifth 6:\n Setting right what has been spoiled by the father. One meets with praise.",
-    "sixth": "Sixth 9:\n One does not serve the kings and princes, sets themself to higher goals.",
+    "sixth": "Top 9:\n One does not serve the kings and princes, sets themself to higher goals.",
     "seventh": ""
   },
   {
@@ -436,7 +436,7 @@ export const wilHex = [
     "third": "Third 6:\n Comfortable approach. Nothing that would further.\n If one is induced to grieve over it, one becomes free of blame.",
     "fourth": "Fourth 6:\n Complete approach. No blame.",
     "fifth": "Fifth 6:\n Wise approach. This is right for a great prince.\n Good fortune.",
-    "sixth": "Sixth 6:\n Greathearted approach. Good fortune. No blame.",
+    "sixth": "Top 6:\n Greathearted approach. Good fortune. No blame.",
     "seventh": ""
   },
   {
@@ -458,7 +458,7 @@ export const wilHex = [
     "third": "Third 6:\n Contemplation of my life decides\n the choice between advance and retreat.",
     "fourth": "Fourth 6:\n Contemplation of the light of the kingdom.\n It furthers one to exert influence as the guest of a ruler.",
     "fifth": "Fifth 9:\n Contemplation of my life. No blame.",
-    "sixth": "Sixth 9:\n Contemplation of the sages life.\n The superior one is without blame.",
+    "sixth": "Top 9:\n Contemplation of the sages life.\n The superior one is without blame.",
     "seventh": ""
   },
   {
@@ -480,7 +480,7 @@ export const wilHex = [
     "third": "Third 6:\n Bites on old dry meat and strikes on something poisonous.\n Slight humiliation. No blame.",
     "fourth": "Fourth 9:\n Bites on dried grisly meat. Receives metal arrows.\n It furthers one to be mindful of difficulties and to be persevering. \nGood fortune.",
     "fifth": "Fifth 6:\n Bites on dried lean meat, receives yellow gold.\n Perseveringly aware of danger.",
-    "sixth": "Sixth 9:\n Ones neck is fastened in the wooden cangue,\n so that their ears disappear. Misfortune.",
+    "sixth": "Top 9:\n Ones neck is fastened in the wooden cangue,\n so that their ears disappear. Misfortune.",
     "seventh": ""
   },
   {
@@ -502,7 +502,7 @@ export const wilHex = [
     "third": "Third 9:\n Graceful and moist. Constant perseverance brings good fortune.",
     "fourth": "Fourth 6:\n Grace or simplicity? A white horse comes as if on wings.\n They are not a robber, they will woo at the right time.",
     "fifth": "Fifth 6:\n Grace in hills and gardens.\n The roll of silk is meager and small.\n Humiliation, but in the end good fortune.",
-    "sixth": "Sixth 9:\n Simple grace. No blame.",
+    "sixth": "Top 9:\n Simple grace. No blame.",
     "seventh": ""
   },
   {
@@ -524,7 +524,7 @@ export const wilHex = [
     "third": "Third 6:\n One splits with them.\n No blame.",
     "fourth": "Fourth 6:\n The bed is split up to the skin.\n Misfortune.",
     "fifth": "Fifth 6:\n A shoal of fishes.\n Favor comes through the court of women.\n Everything acts to further.",
-    "sixth": "Sixth 9:\n There is a large fruit still uneaten.\n The superior one receives a carriage.\n The house of the inferior one is split apart.",
+    "sixth": "Top 9:\n There is a large fruit still uneaten.\n The superior one receives a carriage.\n The house of the inferior one is split apart.",
     "seventh": ""
   },
   {
@@ -546,7 +546,7 @@ export const wilHex = [
     "third": "Third 6:\n Repeated return. Danger. No blame.",
     "fourth": "Fourth 6:\n Walking in the midst of others, one returns alone.",
     "fifth": "Fifth 6:\n Noblehearted return. No remorse.",
-    "sixth": "Sixth 6:\n Missing the return.\n Misfortune.\n Misfortune from within and without.\n If armies are set marching in this way,\n one will in the end suffer a great defeat,\n disastrous for the ruler of the country.\n For ten years it will not be possible to attack again.",
+    "sixth": "Top 6:\n Missing the return.\n Misfortune.\n Misfortune from within and without.\n If armies are set marching in this way,\n one will in the end suffer a great defeat,\n disastrous for the ruler of the country.\n For ten years it will not be possible to attack again.",
     "seventh": ""
   },
   {
@@ -568,7 +568,7 @@ export const wilHex = [
     "third": "Third 6:\n Undeserved misfortune.\n The cow that was tethered by someone is the wanderer's gain,\n the citizen's loss.",
     "fourth": "Fourth 9:\n One who can be persevering remains without blame.",
     "fifth": "Fifth 9:\n Use no medicine in an illness incurred through no fault of your own.\n It will pass of itself.",
-    "sixth": "Sixth 9:\n Innocent action brings misfortune.\n Nothing furthers.",
+    "sixth": "Top 9:\n Innocent action brings misfortune.\n Nothing furthers.",
     "seventh": ""
   },
   {
@@ -590,7 +590,7 @@ export const wilHex = [
     "third": "Third 9:\n A good horse that follows others.\n Awareness of danger, with perseverance, furthers.\n Practice chariot driving and armed defences daily.\n It furthers one to have somewhere to go.",
     "fourth": "Fourth 6:\n The headboard of a young bull.",
     "fifth": "Fifth 6:\n The tusk of a gelded boar. Good fortune.",
-    "sixth": "Sixth 9:\n One attains the way of heaven. Success.",
+    "sixth": "Top 9:\n One attains the way of heaven. Success.",
     "seventh": ""
   },
   {
@@ -612,7 +612,7 @@ export const wilHex = [
     "third": "Third 6:\n Turning away from nourishment.\n Perseverance brings misfortune.\n Do not act thus for ten years.\n Nothing serves to further.",
     "fourth": "Fourth 6:\n Turning to the summit for provision of nourishment\n brings good fortune.\n Spying about with sharp eyes like a tiger\n with insatiable craving. No blame.",
     "fifth": "Fifth 6:\n Turning from the path.\n To remain persevering brings good fortune.\n One should not cross the great water.",
-    "sixth": "Sixth 9:\n The source of nourishment.\n Awareness of danger brings good fortune.\n It furthers one to cross the great water.",
+    "sixth": "Top 9:\n The source of nourishment.\n Awareness of danger brings good fortune.\n It furthers one to cross the great water.",
     "seventh": ""
   },
   {
@@ -634,7 +634,7 @@ export const wilHex = [
     "third": "Third 9:\n The ridgepole sags to the breaking point. Misfortune.",
     "fourth": "Fourth 9:\n The ridgepole is braced. Good fortune.\n If there are ulterior motives, it is humiliating. ",
     "fifth": "Fifth 9:\n A withered poplar puts forth flowers.\n An older woman takes a husband.\n No blame. No praise.",
-    "sixth": "Sixth 6:\n One must go through the water.\n It goes over one's head.\n Misfortune. No blame.",
+    "sixth": "Top 6:\n One must go through the water.\n It goes over one's head.\n Misfortune. No blame.",
     "seventh": ""
   },
   {
@@ -656,7 +656,7 @@ export const wilHex = [
     "third": "Third 6:\n Forward and backward, abyss on abyss.\n In danger like this, pause at first and wait,\n otherwise you will fall into a pit in the abyss.\n Do not act in this way.",
     "fourth": "Fourth 6:\n A jug of wine, a bowl of rice with it;\n Earthen vessels simply handed in through the window.\n There is certainly no blame in this.",
     "fifth": "Fifth 9:\n The abyss is not filled to overflowing,\n it is filled only to the rim. No blame.",
-    "sixth": "Sixth 6:\n Bound with cords and ropes, shut in between thorn-hedged prison walls:\n for three years one does not find the way.\n\n Misfortune.",
+    "sixth": "Top 6:\n Bound with cords and ropes, shut in between thorn-hedged prison walls:\n for three years one does not find the way.\n\n Misfortune.",
     "seventh": ""
   },
   {
@@ -678,7 +678,7 @@ export const wilHex = [
     "third": "Third 9:\n In the light of the setting sun,\n people either beat the pot and sing\n or loudly bewail the approach of old age.\n Misfortune.",
     "fourth": "Fourth 9:\n Its coming is sudden; it flames up,\n dies down, is thrown away.",
     "fifth": "Fifth 6:\n Tears in floods, sighing and lamenting.\n Good fortune.",
-    "sixth": "Sixth 9:\n The ruler uses one to march forth and chastise.\n Then it is best to kill the leaders and take captive the followers.\n No blame.",
+    "sixth": "Top 9:\n The ruler uses one to march forth and chastise.\n Then it is best to kill the leaders and take captive the followers.\n No blame.",
     "seventh": ""
   },
   {
@@ -700,7 +700,7 @@ export const wilHex = [
     "third": "Third 9:\n The influence shows itself in the thighs.\n Holds to that which follows it.\n To continue is humiliating.",
     "fourth": "Fourth 9:\n Perseverance brings good fortune. Remorse disappears.\n If one is agitated in mind, and their thoughts go here and there,\n only those friends on whom they fix their conscious thoughts will follow.",
     "fifth": "Fifth 9:\n The influence shows itself in the back of the neck. No remorse.",
-    "sixth": "Sixth 6:\n The influence shows itself in the jaws, cheeks and tongue.",
+    "sixth": "Top 6:\n The influence shows itself in the jaws, cheeks and tongue.",
     "seventh": ""
   },
   {
@@ -722,7 +722,7 @@ export const wilHex = [
     "third": "Third 9:\n One who dares not give duration\n to their character meets with disgrace.\n Persistent humiliation.",
     "fourth": "Fourth 9:\n No game in the field.",
     "fifth": "Fifth 6:\n Giving duration to one's character through perseverance.\n This is good fortune for the feminine,\n misfortune for the masculine.",
-    "sixth": "Sixth 6:\n Restlessness as an enduring condition brings misfortune.",
+    "sixth": "Top 6:\n Restlessness as an enduring condition brings misfortune.",
     "seventh": ""
   },
   {
@@ -744,7 +744,7 @@ export const wilHex = [
     "third": "Third 9:\n A halted retreat is nerve-wracking and dangerous.\n To retain people as commonfolk and midservants brings good fortune.",
     "fourth": "Fourth 9:\n Voluntary retreat brings good fortune to the superior one and downfall to the inferior.",
     "fifth": "Fifth 9:\n Friendly retreat. Perseverance brings good fortune.",
-    "sixth": "Sixth 9:\n Cheerful retreat. Everything serves to further.",
+    "sixth": "Top 9:\n Cheerful retreat. Everything serves to further.",
     "seventh": ""
   },
   {
@@ -766,7 +766,7 @@ export const wilHex = [
     "third": "Third 9:\n The inferior one works through power.\n The superior one does not act thus.\n To continue is dangerous.\n A goat butts against a hedge and gets its horns tangled.",
     "fourth": "Fourth 9:\n Perseverance brings good fortune.\n Remorse disappears.\n The hedge opens; there is no entanglement.\n Power depends upon the axle of a big cart.",
     "fifth": "Fifth 6:\n Loses the goat with ease. No remorse.",
-    "sixth": "Sixth 6:\n A goat butts against a hedge.\n It cannot go backward, it cannot go forward.\n Nothing serves to further.\n If one notes the difficulty,\n this brings good fortune.",
+    "sixth": "Top 6:\n A goat butts against a hedge.\n It cannot go backward, it cannot go forward.\n Nothing serves to further.\n If one notes the difficulty,\n this brings good fortune.",
     "seventh": ""
   },
   {
@@ -788,7 +788,7 @@ export const wilHex = [
     "third": "Third 6:\n All are in accord. Remorse disappears.",
     "fourth": "Fourth 9:\n Progress like a hamster.\n Perseverance brings danger.",
     "fifth": "Fifth 6:\n Remorse disappears.\n Take not gain and loss to heart.\n Undertakings bring good fortune.\n Everything serves to further.",
-    "sixth": "Sixth 9:\n Making progress with the horns is permissible\n only for the purpose of punishing ones own city.\n To be conscious of the danger brings good fortune.\n No blame.\n Perseverance brings humiliation.",
+    "sixth": "Top 9:\n Making progress with the horns is permissible\n only for the purpose of punishing ones own city.\n To be conscious of the danger brings good fortune.\n No blame.\n Perseverance brings humiliation.",
     "seventh": ""
   },
   {
@@ -810,7 +810,7 @@ export const wilHex = [
     "third": "Third 9:\n Darkening of the light during the hunt in the south.\n Their great leader is captured.\n One must not expect perseverance too soon.",
     "fourth": "Fourth 6:\n One penetrates the left side of the belly.\n One gets at the very heart of the darkening of the light,\n and leaves the gate and courtyard.",
     "fifth": "Fifth 6:\n Darkening of the light as with Prince Chi.\n Perseverance furthers.",
-    "sixth": "Sixth 9:\n Not light but darkness.\n First one climbed up to heaven,\n then they plunged into the depths of the earth.",
+    "sixth": "Top 9:\n Not light but darkness.\n First one climbed up to heaven,\n then they plunged into the depths of the earth.",
     "seventh": ""
   },
   {
@@ -832,7 +832,7 @@ export const wilHex = [
     "third": "Third 9:\n When tempers flare up in the family,\n too great severity brings remorse.\n Good fortune nonetheless.\n When woman and child dally and laugh,\n it leads in the end to humiliation.",
     "fourth": "Fourth 6:\n She is the treasure of the house.\n Great good fortune.",
     "fifth": "Fifth 9:\n As a ruler one approaches their family.\n Fear not.\n Good fortune.",
-    "sixth": "Sixth 9:\n Ones work commands respect.\n In the end good fortune comes.",
+    "sixth": "Top 9:\n Ones work commands respect.\n In the end good fortune comes.",
     "seventh": ""
   },
   {
@@ -854,7 +854,7 @@ export const wilHex = [
     "third": "Third 6:\n One sees the wagon dragged back, the oxen halted,\n one's hair and nose cutoff.\n Not a good beginning, but a good end.",
     "fourth": "Fourth 9:\n Isolated in opposition, one meets a like-minded individual\n with whom one can associate in good faith.\n Despite the danger, no blame.",
     "fifth": "Fifth 6:\n Remorse disappears.\n The companion bites their way through the wrappings.\n If one meets their companion, how could it be a mistake?",
-    "sixth": "Sixth 9:\n Isolated in opposition, one sees one's companion\n as a pig covered with dirt,\n as a wagon full of devils.\n First one draws a bow against them,\n then one lays the bow aside.\n They are not a robber;\n they will woo at the right time.\n As one leaves, rain falls;\n then good fortune comes.",
+    "sixth": "Top 9:\n Isolated in opposition, one sees one's companion\n as a pig covered with dirt,\n as a wagon full of devils.\n First one draws a bow against them,\n then one lays the bow aside.\n They are not a robber;\n they will woo at the right time.\n As one leaves, rain falls;\n then good fortune comes.",
     "seventh": ""
   },
   {
@@ -876,7 +876,7 @@ export const wilHex = [
     "third": "Third 9:\n Going leads to obstruction;\n Hence one comes back.",
     "fourth": "Fourth 6:\n Going leads to obstructions,\n coming leads to union.",
     "fifth": "Fifth 9:\n In the midst of the greatest obstructions,\n friends come.",
-    "sixth": "Sixth 6:\n Going leads to obstructions,\n coming leads to great good fortune.",
+    "sixth": "Top 6:\n Going leads to obstructions,\n coming leads to great good fortune.",
     "seventh": ""
   },
   {
@@ -898,7 +898,7 @@ export const wilHex = [
     "third": "Third 6:\n If one carries a burden on their back\n and nonetheless rides in a carriage,\n one thereby encourages robbers to draw near.\n Perseverance leads to humiliation.",
     "fourth": "Fourth 9:\n Deliver yourself from your great toe.\n Then the trustworthy companion arrives.",
     "fifth": "Fifth 6:\n If only the superior one can deliver themself,\n it brings good fortune.\n Thus one proves to the inferior\n that the superior is in earnest.",
-    "sixth": "Sixth 6:\n The prince shoots at a hawk on a high wall and kills it.\n Everything serves to further.",
+    "sixth": "Top 6:\n The prince shoots at a hawk on a high wall and kills it.\n Everything serves to further.",
     "seventh": ""
   },
   {
@@ -920,7 +920,7 @@ export const wilHex = [
     "third": "Third 6:\n When three people journey together, their number decreases by one.\n When one journeys alone, they find a companion.",
     "fourth": "Fourth 6:\n If one decreases their faults,\n it makes the other hasten to come and rejoice.\n No blame.",
     "fifth": "Fifth 6:\n Someone does indeed increase him.\n Ten pairs of tortoises cannot oppose it. Supreme good fortune.",
-    "sixth": "Sixth 9:\n If one is increased without depriving others, there is no blame.\n Perseverance brings good fortune.\n It furthers one to undertake something.\n One obtains servants but no longer has a separate home.",
+    "sixth": "Top 9:\n If one is increased without depriving others, there is no blame.\n Perseverance brings good fortune.\n It furthers one to undertake something.\n One obtains servants but no longer has a separate home.",
     "seventh": ""
   },
   {
@@ -942,7 +942,7 @@ export const wilHex = [
     "third": "Third 6:\n One is enriched through unfortunate events.\n No blame, if you are sincere and walk in the middle,\n and report with a seal to the prince.",
     "fourth": "Fourth 6:\n If you walk in the middle and report to the prince,\n the prince will follow.\n It furthers one to be used in the removal of the capitol.",
     "fifth": "Fifth 9:\n If in truth you have a kind heart, ask not.\n Supreme good fortune.\n Truly, kindness will be recognized as your virtue.",
-    "sixth": "Sixth 9:\n The subject brings increase to no one.\n Indeed, someone even strikes the subject.\n One does not keep their heart constantly steady.\n Misfortune.",
+    "sixth": "Top 9:\n The subject brings increase to no one.\n Indeed, someone even strikes the subject.\n One does not keep their heart constantly steady.\n Misfortune.",
     "seventh": ""
   },
   {
@@ -964,7 +964,7 @@ export const wilHex = [
     "third": "Third 9:\n To be powerful in the cheekbones brings misfortune.\n The superior one is firmly resolved.\n One walks alone and is caught in the rain.\n One is bespattered,\n and people murmer against them. No blame.",
     "fourth": "Fourth 9:\n There is no skin on ones thighs, and walking comes hard.\n If one were to let themself be led like a sheep, remorse would disappear.\n But if these words are heard they will not be believed.",
     "fifth": "Fifth 9:\n In dealing with weeds,\n firm resolution is necessary.\n Walking in the middle remains free of blame.",
-    "sixth": "Sixth 6:\n No cry. In the end misfortune comes.",
+    "sixth": "Top 6:\n No cry. In the end misfortune comes.",
     "seventh": ""
   },
   {
@@ -986,7 +986,7 @@ export const wilHex = [
     "third": "Third 9:\n There is no skin on ones thighs, and walking comes hard.\n If one is mindful of the danger, no great mistake is made.",
     "fourth": "Fourth 9:\n No fish in the tank. This leads to misfortune.",
     "fifth": "Fifth 9:\n A melon covered with willow leaves.\n Hidden lines. Then it drops down to one from heaven.",
-    "sixth": "Sixth 9:\n One comes to meet with their own horns.\n Humiliation. No blame.",
+    "sixth": "Top 9:\n One comes to meet with their own horns.\n Humiliation. No blame.",
     "seventh": ""
   },
   {
@@ -1008,7 +1008,7 @@ export const wilHex = [
     "third": "Third 6:\n Gathering together amid sighs.\n Nothing that would further. Going is without blame.",
     "fourth": "Fourth 9: Great good fortune. No blame.",
     "fifth": "Fifth 9:\n If in gathering together one has position,\n this brings no blame.\n If there are some who are not yet sincerely in the work, sublime and enduring perseverance is needed.\n Then remorse disappears.",
-    "sixth": "Sixth 6:\n Lamenting and sighing, floods of tears. No blame.",
+    "sixth": "Top 6:\n Lamenting and sighing, floods of tears. No blame.",
     "seventh": ""
   },
   {
@@ -1030,7 +1030,7 @@ export const wilHex = [
     "third": "Third 9:\n One pushes upward into an empty city.",
     "fourth": "Fourth 6:\n The ruler offers the subject Mount Ch'i.\n Good fortune. No blame.",
     "fifth": "Fifth 6:\n Perseverance brings good fortune.\n One pushes upward by steps.",
-    "sixth": "Sixth 6:\n Pushing upward in darkness.\n It furthers one to be unremittingly persevering.",
+    "sixth": "Top 6:\n Pushing upward in darkness.\n It furthers one to be unremittingly persevering.",
     "seventh": ""
   },
   {
@@ -1052,7 +1052,7 @@ export const wilHex = [
     "third": "Third 6:\n One permits themself to be oppressed by stone,\n and leans on thorns and thistles.\n One enters their house and does not see their wife.\n Misfortune.",
     "fourth": "Fourth 9:\n One approaches very quietly,\n oppressed in a golden carriage.\n Humiliation, but the end is reached.",
     "fifth": "Fifth 9:\n Ones nose and feet are cut off.\n Oppression at the hands of the one with the purple knee bands.\n Joy comes softly.\n It furthers one to make offerings and libations.",
-    "sixth": "Sixth 6:\n One is oppressed by creeping vines.\n One moves uncertainly and says, \"Movement brings remorse.\" If one feels remorse over this and makes a start, good fortune comes.",
+    "sixth": "Top 6:\n One is oppressed by creeping vines.\n One moves uncertainly and says, \"Movement brings remorse.\" If one feels remorse over this and makes a start, good fortune comes.",
     "seventh": ""
   },
   {
@@ -1074,7 +1074,7 @@ export const wilHex = [
     "third": "Third 9:\n The well is cleaned, but no one drinks from it.\n This is my heart's sorrow, for one might draw from it.\n If the ruler were clear-minded, good fortune might be enjoyed in common.",
     "fourth": "Fourth 6:\n The well is being lined. No blame.",
     "fifth": "Fifth 9:\n In the well there is a clear,\n cold spring from which one can drink.",
-    "sixth": "Sixth 6:\n One draws from the well without hindrance.\n It is dependable. Supreme good fortune.",
+    "sixth": "Top 6:\n One draws from the well without hindrance.\n It is dependable. Supreme good fortune.",
     "seventh": ""
   },
   {
@@ -1093,10 +1093,10 @@ export const wilHex = [
     "line6": "\u268B",
     "first": "First 9:\n Wrapped in the hide of a yellow cow.",
     "second": "Second 6:\n When one's own day comes, one may create revolution.\n Starting brings good fortune. No blame.",
-    "third": "Third 9:\n Starting brings misfortune.\n Perseverance brings danger.\n When talk of revolution has gone the rounds three times,\n one may commit themself,\n and others will believe them.",
+    "third": "Third 9:\n Starting brings misfortune.\n Perseverance brings brings danger.\n When talk of revolution has gone the rounds three times,\n one may commit themself,\n and others will believe them.",
     "fourth": "Fourth 9:\n Remorse disappears. The people believe the subject.\n Changing the form of government brings good fortune.",
     "fifth": "Fifth 9:\n The great one changes like a tiger.\n Even before one questions the oracle they are believed.",
-    "sixth": "Sixth 6:\n The superior one changes like a panther.\n The inferior one molts in the face.\n Starting brings misfortune.\n To remain persevering brings good fortune.",
+    "sixth": "Top 6:\n The superior one changes like a panther.\n The inferior one molts in the face.\n Starting brings misfortune.\n To remain persevering brings good fortune.",
     "seventh": ""
   },
   {
@@ -1118,7 +1118,7 @@ export const wilHex = [
     "third": "Third 9:\n The handle of the ting is altered.\n One is impeded in their way of life.\n The fat of the pheasant is not eaten.\n Once rain falls, remorse is spent.\n Good fortune comes in the end.",
     "fourth": "Fourth 9:\n The legs of the ting are broken.\n The prince's meal is spilled\n and their person is soiled.\n Misfortune.",
     "fifth": "Fifth 6:\n The ting has yellow handles,\n golden carrying rings.\n Perseverance furthers.",
-    "sixth": "Sixth 9:\n The ting has rings of jade.\n Great good fortune.\n Nothing that would not act to further.",
+    "sixth": "Top 9:\n The ting has rings of jade.\n Great good fortune.\n Nothing that would not act to further.",
     "seventh": ""
   },
   {
@@ -1140,7 +1140,7 @@ export const wilHex = [
     "third": "Third 6:\n Shock comes and makes one distraught.\n If shock spurs to action one remains free of misfortune.",
     "fourth": "Fourth 9:\n Shock is mired.",
     "fifth": "Fifth 6:\n Shock goes here and there.\n Danger. However, nothing at all is lost.\n Yet there are things to be done.",
-    "sixth": "Sixth 6:\n Shock brings ruin and terrified gazing around.\n Going ahead brings misfortune.\n If it has not yet touched one's own body,\n but has reached one's neighbor first,\n there is no blame.\n One's comrades have something to talk about.",
+    "sixth": "Top 6:\n Shock brings ruin and terrified gazing around.\n Going ahead brings misfortune.\n If it has not yet touched one's own body,\n but has reached one's neighbor first,\n there is no blame.\n One's comrades have something to talk about.",
     "seventh": ""
   },
   {
@@ -1162,7 +1162,7 @@ export const wilHex = [
     "third": "Third 9:\n Keeping ones hips still. Making ones sacrum stiff. Dangerous. The heart suffocates.",
     "fourth": "Fourth 6:\n Keeping ones trunk still. No blame.",
     "fifth": "Fifth 6:\n Keeping ones jaw still. The words have order. Remorse disappears.",
-    "sixth": "Sixth 9:\n Noblehearted keeping still. Good fortune.",
+    "sixth": "Top 9:\n Noblehearted keeping still. Good fortune.",
     "seventh": ""
   },
   {
@@ -1184,7 +1184,7 @@ export const wilHex = [
     "third": "Third 9:\n The wild goose gradually draws from near the plateau.\n One goes forth and does not return.\n The woman carries a child but does not bring it forth.\n Misfortune. It furthers one to fight off robbers.",
     "fourth": "Fourth 6:\n The wild goose gradually draws near the tree.\n Perhaps it will find a flat branch.\n No blame.",
     "fifth": "Fifth 9:\n The wild goose gradually draws near the summit.\n For three years the woman has no child.\n In the end nothing can hinder her.\n Good fortune.",
-    "sixth": "Sixth 9:\n The wild goose gradually draws near the cloud heights.\n Its feathers can be used for the sacred dance.\n Good fortune.",
+    "sixth": "Top 9:\n The wild goose gradually draws near the cloud heights.\n Its feathers can be used for the sacred dance.\n Good fortune.",
     "seventh": ""
   },
   {
@@ -1206,7 +1206,7 @@ export const wilHex = [
     "third": "Third 6:\n The marrying maiden as a slave.\n One marries a concubine.",
     "fourth": "Fourth 9:\n The marrying maiden draws out the allotted time.\n A late marriage comes in due course. ",
     "fifth": "Fifth 6:\n The sovereign I gave his daughter in marriage.\n The embroidered garments of the princess\n were not as gorgeous as those of the servingmaid.\n The moon that is nearly full brings good fortune.",
-    "sixth": "Sixth 6:\n The woman holds the basket, but there are no fruits in it.\n One stabs the sheep but no blood flows.\n Nothing that acts to further.",
+    "sixth": "Top 6:\n The woman holds the basket, but there are no fruits in it.\n One stabs the sheep but no blood flows.\n Nothing that acts to further.",
     "seventh": ""
   },
   {
@@ -1228,7 +1228,7 @@ export const wilHex = [
     "third": "Third 9:\n The underbrush is of such abundance\n that the small stars can be seen at noon.\n One breaks their right arm.\n No blame.",
     "fourth": "Fourth 9:\n The curtain is of such fullness\n that the polestars can be seen at noon.\n One meets with their ruler,\n who is of like kind.\n Good fortune.",
     "fifth": "Fifth 6:\n Lines are coming,\n blessing and fame draw near.\n Good fortune.",
-    "sixth": "Sixth 6:\n Ones house is in a state of abundance.\n One screens off their family.\n One peers through the gate and no longer perceives anyone.\n For three years one sees nothing.\n Misfortune.",
+    "sixth": "Top 6:\n Ones house is in a state of abundance.\n One screens off their family.\n One peers through the gate and no longer perceives anyone.\n For three years one sees nothing.\n Misfortune.",
     "seventh": ""
   },
   {
@@ -1250,7 +1250,7 @@ export const wilHex = [
     "third": "Third 9:\n The wanderer's inn burns down.\n One loses the steadfastness of their young servant.",
     "fourth": "Fourth 9:\n The wanderer rests in a shelter.\n One obtains their property and an ax.\n My heart is not glad.",
     "fifth": "Fifth 6:\n One shoots a pheasant.\n It drops with the first arrow.\n In the end this brings both praise and office.",
-    "sixth": "Sixth 9:\n The bird's nest burns up.\n The wanderer laughs at first,\n then must lament and weep.\n Through carelessness one loses their cow.",
+    "sixth": "Top 9:\n The bird's nest burns up.\n The wanderer laughs at first,\n then must lament and weep.\n Through carelessness one loses their cow.",
     "seventh": ""
   },
   {
@@ -1272,7 +1272,7 @@ export const wilHex = [
     "third": "Third 9:\n Repeated penetration. Humiliation.",
     "fourth": "Fourth 6:\n Remorse vanishes.\n During the hunt three kinds of game are caught.",
     "fifth": "Fifth 9:\n Perseverance brings good fortune.\n Remorse vanishes.\n Nothing that does not further.\n No beginning, but an end.\n Before the change, three days.\n After the change, three days.\n Good fortune.",
-    "sixth": "Sixth 9:\n Penetration under the bed.\n One loses property and their ax.\n Perseverance brings misfortune.",
+    "sixth": "Top 9:\n Penetration under the bed.\n One loses property and their ax.\n Perseverance brings misfortune.",
     "seventh": ""
   },
   {
@@ -1294,7 +1294,7 @@ export const wilHex = [
     "third": "Third 6:\n Coming joyousness. Misfortune. ",
     "fourth": "Fourth 9:\n Joyousness that is weighed is not at peace.\n After ridding themself of mistakes one has joy.",
     "fifth": "Fifth 9:\n Sincerity toward disintegrating influences is dangerous.",
-    "sixth": "Sixth 6:\n Seductive joyousness.",
+    "sixth": "Top 6:\n Seductive joyousness.",
     "seventh": ""
   },
   {
@@ -1316,7 +1316,7 @@ export const wilHex = [
     "third": "Third 6:\n One dissolves themself. No remorse.",
     "fourth": "Fourth 6:\n One dissolves their bond with their group.\n Supreme good fortune. Dispersion leads in turn to accumulation.\n This is something that ordinary people would not think of.",
     "fifth": "Fifth 9:\n Ones loud cries are as dissolving as sweat.\n Dissolution! A ruler abides without blame.",
-    "sixth": "Sixth 9:\n One dissolves their blood.\n Departing, keeping at a distance,\n going out, is without blame.",
+    "sixth": "Top 9:\n One dissolves their blood.\n Departing, keeping at a distance,\n going out, is without blame.",
     "seventh": ""
   },
   {
@@ -1338,7 +1338,7 @@ export const wilHex = [
     "third": "Third 6:\n One who knows no limitation will have cause to lament. No blame.",
     "fourth": "Fourth 6:\n Contended limitation. Success.",
     "fifth": "Fifth 9:\n Sweet limitation brings good fortune.\n Going brings esteem.",
-    "sixth": "Sixth 6:\n Galling limitation.\n Perseverance brings misfortune.\n\n Remorse disappears.",
+    "sixth": "Top 6:\n Galling limitation.\n Perseverance brings misfortune.\n\n Remorse disappears.",
     "seventh": ""
   },
   {
@@ -1360,7 +1360,7 @@ export const wilHex = [
     "third": "Third 6:\n One finds a comrade. Now one beats the drum, now one stops. Now one sobs, now one sings.",
     "fourth": "Fourth 6:\n The moon nearly at the full. The team horse goes astray. No blame.",
     "fifth": "Fifth 9:\n One possesses truth, which links together. No blame.",
-    "sixth": "Sixth 9:\n Cockcrow penetrating to heaven. Perseverance brings misfortune.",
+    "sixth": "Top 9:\n Cockcrow penetrating to heaven. Perseverance brings misfortune.",
     "seventh": ""
   },
   {
@@ -1382,7 +1382,7 @@ export const wilHex = [
     "third": "Third 9:\n If one is not extremely careful,\n somebody may come up from behind and strike.\n Misfortune.",
     "fourth": "Fourth 9:\n No blame. One meets them without passing by.\n Going brings danger. One must be on guard.\n Do not act. Be constantly persevering.",
     "fifth": "Fifth 6:\n Dense clouds, no rain from our western territory.\n The prince shoots and hits who is in the cave.",
-    "sixth": "Sixth 6:\n One is passed by, without meeting.\n The flying bird leaves. Misfortune.\n This means bad luck and injury.",
+    "sixth": "Top 6:\n One is passed by, without meeting.\n The flying bird leaves. Misfortune.\n This means bad luck and injury.",
     "seventh": ""
   },
   {
@@ -1404,7 +1404,7 @@ export const wilHex = [
     "third": "Third 9:\n The illustrious ancestor disciplines the Devil Country.\n After three years one conquers it.\n Inferior people must not be employed.",
     "fourth": "Fourth 6:\n The finest clothes turn to rags.\n Be careful all day long.",
     "fifth": "Fifth 9:\n The neighbor in the east who slaughters an ox\n does not attain as much real happiness\n as the neighbor in the west\n with their small offering.",
-    "sixth": "Sixth 6:\n The fox gets its head in the water. Danger.",
+    "sixth": "Top 6:\n The fox gets its head in the water. Danger.",
     "seventh": ""
   },
   {
@@ -1426,7 +1426,7 @@ export const wilHex = [
     "third": "Third 6:\n Before completion, attack brings misfortune.\n It furthers one to cross the great water.",
     "fourth": "Fourth 9:\n Perseverance brings good fortune.\n Remorse disappears.\n Shock, thus to discipline the Devil's Country.\n For three years, great realms are awarded.",
     "fifth": "Fifth 6:\n Perseverance brings good fortune. No remorse.\n The light of the superior one is true. Good fortune.",
-    "sixth": "Sixth 9:\n There is drinking of wine in genuine confidence.\n No blame. But if one wets their head, one loses it, in truth.",
+    "sixth": "Top 9:\n There is drinking of wine in genuine confidence.\n No blame. But if one wets their head, one loses it, in truth.",
     "seventh": ""
   }
 ];

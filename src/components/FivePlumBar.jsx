@@ -1152,7 +1152,7 @@ return (
             |  ☾{moonTimes.month}/{moonTimes.day}/{moonTimes.year} 
             </div>
             <div className='time'>
-            UT: {(currentT < 10 ? '0' : '') + currentT}:{(now.getUTCMinutes() < 10 ? '0' : '') + now.getMinutes()} - {timeCode}
+            UT: {(currentT < 10 ? '0' : '') + currentT}:{(now.getUTCMinutes() < 10 ? '0' : '') + now.getMinutes()} - {timeCode} 
             <button onClick={handleBackStep}>Prev</button>
             <button onClick={handleForwardStep}>Next</button>
         </div>

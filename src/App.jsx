@@ -12,8 +12,8 @@ export default function App() {
   return (
 <>
 <LineDev />
-<FivePlumBar />
 <Header />
+<FivePlumBar />
 <HexTable />
 </>
 )

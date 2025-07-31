@@ -5,8 +5,10 @@ import { wilHex } from "../utils/wilHex";
 import '../index.css'
 
 export default function FivePlumBar(){
-const [isShown, setIsShown] = useState(true);
-const handleClick = () => {
+
+    const [isShown, setIsShown] = useState(true);
+
+    const handleClick = () => {
     setIsShown(current => !current);
 };
 
@@ -1131,23 +1133,29 @@ console.log('hexKeyNuc = [0-63] wilhex array key', hexKeyNuc);
 
 return (
     <>
+        {isShown && <FivePlum
+        hexKeyOne={hexKeyOne}
+        hexKeyTwo={hexKeyTwo}
+        hexKeyNuc={hexKeyNuc}
+        />
+    } 
         <div className='datetime-bar'>
             <input 
                 className="date-selector" 
                 type="datetime-local"
                 onChange={e => setDateTime(e.target.value)}
             />
-        <div className='greg'>
-            ☉{currentM}/{currentD}/{currentY}
-        </div>
-        <div className='luna'>
+            <div className='greg'>
+                ☉{currentM}/{currentD}/{currentY}
+            </div>
+            <div className='luna'>
             |  ☾{moonTimes.month}/{moonTimes.day}/{moonTimes.year} 
-        </div>
-        <div className='time'>
-        UT: {(currentT < 10 ? '0' : '') + currentT}:{(now.getUTCMinutes() < 10 ? '0' : '') + now.getMinutes()} - {timeCode}
+            </div>
+            <div className='time'>
+            UT: {(currentT < 10 ? '0' : '') + currentT}:{(now.getUTCMinutes() < 10 ? '0' : '') + now.getMinutes()} - {timeCode}
             <button onClick={handleBackStep}>Prev</button>
             <button onClick={handleForwardStep}>Next</button>
-        </div> 
+        </div>
         <div onClick={handleClick} className='blossoms'>
             {wilHex[(hexKeyOne)].hex}
         <span className='x'>x:{x}</span>
@@ -1155,12 +1163,6 @@ return (
             {wilHex[(hexKeyTwo)].hex}{wilHex[(hexKeyNuc)].hex}
         </span>
         </div>
-            {isShown && <FivePlum
-                hexKeyOne={hexKeyOne}
-                hexKeyTwo={hexKeyTwo}
-                hexKeyNuc={hexKeyNuc}
-            />
-            }
     </div>
 </>
     )

@@ -1093,7 +1093,7 @@ export const wilHex = [
     "line6": "\u268B",
     "first": "First 9:\n Wrapped in the hide of a yellow cow.",
     "second": "Second 6:\n When one's own day comes, one may create revolution.\n Starting brings good fortune. No blame.",
-    "third": "Third 9:\n Starting brings misfortune.\n Perseverance brings brings danger.\n When talk of revolution has gone the rounds three times,\n one may commit themself,\n and others will believe them.",
+    "third": "Third 9:\n Starting brings misfortune.\n Perseverance brings danger.\n When talk of revolution has gone the rounds three times,\n one may commit themself,\n and others will believe them.",
     "fourth": "Fourth 9:\n Remorse disappears. The people believe the subject.\n Changing the form of government brings good fortune.",
     "fifth": "Fifth 9:\n The great one changes like a tiger.\n Even before one questions the oracle they are believed.",
     "sixth": "Sixth 6:\n The superior one changes like a panther.\n The inferior one molts in the face.\n Starting brings misfortune.\n To remain persevering brings good fortune.",

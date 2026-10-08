@@ -7,12 +7,13 @@ made with ReactJS featuring <a href="https://github.com/Liu-Jinshuai/moon-time">
 
 ### TO DO
 
--Use grid to arrange the 64 hexagrams 8 x 8 in order and showing the hovered hexagram as well as it's nuclear content.
+# STYLE / FUNCTION
 
--Style the date bar to be fixed at the bottom of the screen
-
--fix the title to the top left
-
--style for mobile first
-
--include dropdown for timezone
+- style wheels appropriately
+- implement responsiveness resize across components, ie HexTable
+- label everything with on hover window
+- on hover show information, label hex numbers and trigrams
+- plum blossoms to show in horizontal rows of three
+- apply this format to present selected hexagram info from hover to static click
+- fix date time bar form functionality
+- pulldown menu to select timezone

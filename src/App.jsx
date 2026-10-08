@@ -12,10 +12,10 @@ export default function App() {
 
   return (
 <>
+<Header />
 <HexTable />
 <LineDev />
 <Wheels />
-<Header />
 <FivePlumBar /> 
 </>
 )

@@ -8,8 +8,8 @@ return (
         {wilHex[num].num}<br/>
         {wilHex[num].char}<br/>
         {wilHex[num].simpinyin}<br/>
-        {wilHex[num].hex}<br/>
         {wilHex[num].name}<br/>
+        {wilHex[num].hex}<br/>
         {wilHex[num].thwan}<br/>
         {wilHex[num].img}<br/>
         {wilHex[num].line1}{wilHex[num].first}<br/>

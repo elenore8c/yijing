@@ -31,7 +31,7 @@ export const wilHex = [
     "fourth": "Fourth 9:\n Wavering flying over the depths. No blame.",
     "fifth": "Fifth 9:\n Flying dragon in the heavens.\n It furthers one to see the great one.",
     "sixth": "Top 9:\n Arrogant dragon will have cause to repent.",
-    "seventh": "Six 9's:\n There appears a flight of dragons without heads.\n Good fortune."
+    "seventh": "All 9 \u4dc0:\n There appears a flight of dragons without heads.\n Good fortune."
   },
   {
     "num": 2,
@@ -63,7 +63,7 @@ export const wilHex = [
     "fourth": "Fourth 6:\n A tied-up sack. No blame, no praise.",
     "fifth": "Fifth 6:\n A yellow lower garment brings supreme good fortune.",
     "sixth": "Top 6:\n Dragon fight in the meadow.\n Their blood is black and yellow.",
-    "seventh": "Six 6's:\n Lasting perseverance furthers."
+    "seventh": "All 6 \u4dc1:\n Lasting perseverance furthers."
   },
   {
     "num": 3,

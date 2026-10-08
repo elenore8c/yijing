@@ -1169,3 +1169,4 @@ return (
 }
 // Replace the number specifying the changing line with logic to change the position of x to align with the changing line.
 
+// create a terminal for specified HexTable and FivePlum content to be dynamically displayed, later allowing for selection of lines to change hexagrams appearing side by side in desktop view, the three hexagrams side by side selectable 

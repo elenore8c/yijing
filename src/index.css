@@ -1,4 +1,50 @@
-::-webkit-scrollbar {
+/* 8/18/26 
+styling for mobile / responsi
+goals: 
+
+basics:
+
+flexbox
+grid 
+spacing
+responsive
+
+
+contrast checker:
+Aim for a ratio of at least 4.5:1
+
+hex grid possible solutions:
+
+repeat(12, 1fr) intend to leave empty space in order to center content?
+gridColumn="span 8"           
+gridRow="span 2"
+
+
+tri wheel possible solutions:
+
+::before
+::after
+relative or fixed within responsive parent element
+
+https: //www.youtube.com/watch?v=i1FeOOhNnwU
+
+
+
+-style for mobile layout
+    -label line dev
+    -arrange hsi and wen tri circles
+    -
+
+  -style for tablet
+  -style for laptop
+  -style for desktop
+ */
+
+::root{
+  --
+}
+
+ ::-webkit-scrollbar {
   width:5px;
 }
 
@@ -20,8 +66,147 @@ body{
   font-weight: 600;
   text-align: center;
   color: aquamarine;
-  background-color: black;
+  background-color: rgb(5, 5, 5);
 }
+
+div{
+  /* font-size: clamp(100%, 30%, 88%); */
+}
+
+/* hex */
+
+.hex-container{
+  display: grid;
+  justify-content: center;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.hex-table{
+  /* width: 100px; */
+  /* justify-items:center; */
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(8, clamp( 2rem, 4vw, 30em));
+  grid-template-rows: repeat(8, clamp(2rem, 4vw, 30em));
+  font-size: clamp( 2em, 4vw, 30em);
+  padding: 10px;
+}
+
+.symbol{
+  width: 55px;
+}
+
+/* //linedev// */
+
+/*  */
+
+.line-dev{
+  padding-top: 1em;
+  /* max-width: 100%; */
+  justify-content: center;
+  display: grid;
+  font-size: 3em;
+}
+
+.third{
+  display: grid;
+  grid-template-columns: repeat(8, clamp(1rem, 8rem, 6rem));
+  /* padding: 1em; */
+}
+
+
+.second{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.first{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* padding: 1em; */
+}
+
+/* wheel container position */
+
+.wh-containers{
+  height: 50%;
+  gap: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* wheel item composition */
+
+.hsi-wh-container{
+display: grid;
+grid-template-columns: 50px 50px 50px;
+grid-template-rows: 50px 50px 50px;
+align-items: center;
+justify-content: center;
+}
+
+.wen-wh-container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nw{
+  transform:rotate(-45deg);
+  background-color: purple;
+  /* width: 20px; */
+}
+
+.n{
+/* height: 35px; */
+background-color: purple;
+/* width: 20px; */
+}
+
+.ne{
+  transform:rotate(45deg);
+  background-color: purple;
+  /* width: 20px; */
+}
+
+.w{
+/* height: 5px; */
+transform:rotate(-90deg);
+background-color: purple;
+/* width: 20px; */
+}
+
+.e{
+/* height: 35px; */
+transform:rotate(90deg);
+background-color: purple;
+/* width: 20px; */
+}
+
+.sw{
+/* height: 15px; */
+transform:rotate(-135deg);
+background-color: purple;
+/* width: 20px; */
+}
+
+.s{
+/* height: 40px; */
+transform:rotate(180deg);
+background-color: purple;
+/* width: 20px; */
+}
+
+.se{
+/* height: 15px; */
+transform:rotate(135deg);
+background-color: purple;
+/* width: 20px; */
+}
+
+/* date time five plum bar  */
 
 input{
   position: fixed;
@@ -61,7 +246,7 @@ input{
   position: fixed;
   bottom: -3px;
   left: 75px;
-  /* background-color: rgba(10, 10, 10, 0.726); */
+  background-color: rgba(10, 10, 10, 0.726);
 }
 
 .time{
@@ -83,3 +268,4 @@ button{
   position: fixed;
   right: 0px;
 }
+

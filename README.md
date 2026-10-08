@@ -9,7 +9,7 @@ made with ReactJS featuring <a href="https://github.com/Liu-Jinshuai/moon-time">
 
 ### Style / Function
 
-~~style wheels appropriately~~
+- ~~style wheels appropriately~~
 - implement responsiveness resize across components, ie HexTable
 - label everything with on hover window
 - on hover show information, label hex numbers and trigrams

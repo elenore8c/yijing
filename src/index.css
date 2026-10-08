@@ -105,7 +105,7 @@ div{
   /* max-width: 100%; */
   justify-content: center;
   display: grid;
-  font-size: 3em;
+  font-size: clamp(2em, 4vw, 30em);
 }
 
 .third{
@@ -129,7 +129,6 @@ div{
 /* wheel container position */
 
 .wh-containers{
-  height: 50%;
   gap: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -155,54 +154,57 @@ justify-content: center;
 
 .nw{
   transform:rotate(-45deg);
-  background-color: purple;
+  /* background-color: purple; */
   /* width: 20px; */
 }
 
 .n{
 /* height: 35px; */
-background-color: purple;
+/* background-color: purple; */
+padding: 0 0 25px 0;
 /* width: 20px; */
 }
 
 .ne{
   transform:rotate(45deg);
-  background-color: purple;
+  /* background-color: purple; */
   /* width: 20px; */
 }
 
 .w{
 /* height: 5px; */
 transform:rotate(-90deg);
-background-color: purple;
+padding: 0 0 25px 0;
+/* background-color: purple; */
 /* width: 20px; */
 }
 
 .e{
 /* height: 35px; */
+padding: 0 0 25px 0;
 transform:rotate(90deg);
-background-color: purple;
+/* background-color: purple; */
 /* width: 20px; */
 }
 
 .sw{
 /* height: 15px; */
 transform:rotate(-135deg);
-background-color: purple;
+/* background-color: purple; */
 /* width: 20px; */
 }
 
 .s{
 /* height: 40px; */
-transform:rotate(180deg);
-background-color: purple;
+padding: 25px 0 0 0;
+/* background-color: purple; */
 /* width: 20px; */
 }
 
 .se{
 /* height: 15px; */
 transform:rotate(135deg);
-background-color: purple;
+/* background-color: purple; */
 /* width: 20px; */
 }
 

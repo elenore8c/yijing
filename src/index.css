@@ -82,12 +82,12 @@ div{
 }
 
 .hex-table{
-  /* width: 100px; */
-  /* justify-items:center; */
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(8, clamp( 2rem, 4vw, 30em));
-  grid-template-rows: repeat(8, clamp(2rem, 4vw, 30em));
+  grid-template-columns: repeat(8, clamp( 1.2em, 4vw, 30em));
+  grid-template-rows: repeat(8, clamp(1.2em,
+    4vw,
+    30em));
   font-size: clamp( 2em, 4vw, 30em);
   padding: 10px;
 }
@@ -110,8 +110,8 @@ div{
 
 .third{
   display: grid;
-  grid-template-columns: repeat(8, clamp(1rem, 8rem, 6rem));
-  /* padding: 1em; */
+  gap: 5px;
+  grid-template-columns: repeat(8, clamp(1em, 3vw, 2em));
 }
 
 
@@ -212,6 +212,7 @@ transform:rotate(135deg);
 
 input{
   position: fixed;
+  font-family: inherit;
   bottom: 15px;
   left: 0;
   width: 95px;

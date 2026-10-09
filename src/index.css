@@ -69,40 +69,30 @@ body{
   background-color: rgb(5, 5, 5);
 }
 
-div{
-  /* font-size: clamp(100%, 30%, 88%); */
-}
-
 /* hex */
 
 .hex-container{
   display: grid;
   justify-content: center;
-  /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
 .hex-table{
   align-items: center;
   display: grid;
   grid-template-columns: repeat(8, clamp( 1.2em, 4vw, 30em));
-  grid-template-rows: repeat(8, clamp(1.2em,
-    4vw,
-    30em));
+  grid-template-rows: repeat(8, clamp(1.2em, 4vw, 30em));
   font-size: clamp( 2em, 4vw, 30em);
   padding: 10px;
 }
 
 .symbol{
-  width: 55px;
+  width: clamp(4em, 6vw, 6em);
 }
 
 /* //linedev// */
 
-/*  */
-
 .line-dev{
   padding-top: 1em;
-  /* max-width: 100%; */
   justify-content: center;
   display: grid;
   font-size: clamp(2em, 4vw, 30em);
@@ -154,58 +144,36 @@ justify-content: center;
 
 .nw{
   transform:rotate(-45deg);
-  /* background-color: purple; */
-  /* width: 20px; */
 }
 
 .n{
-/* height: 35px; */
-/* background-color: purple; */
 padding: 0 0 25px 0;
-/* width: 20px; */
 }
 
 .ne{
   transform:rotate(45deg);
-  /* background-color: purple; */
-  /* width: 20px; */
 }
 
 .w{
-/* height: 5px; */
 transform:rotate(-90deg);
 padding: 0 0 25px 0;
-/* background-color: purple; */
-/* width: 20px; */
 }
 
 .e{
-/* height: 35px; */
 padding: 0 0 25px 0;
 transform:rotate(90deg);
-/* background-color: purple; */
-/* width: 20px; */
 }
 
 .sw{
-/* height: 15px; */
 transform:rotate(-135deg);
-/* background-color: purple; */
-/* width: 20px; */
 }
 
 .s{
-/* height: 40px; */
 padding: 25px 0 0 0;
-/* background-color: purple; */
-/* width: 20px; */
 }
 
 .se{
-/* height: 15px; */
 transform:rotate(135deg);
-/* background-color: purple; */
-/* width: 20px; */
 }
 
 /* date time five plum bar  */

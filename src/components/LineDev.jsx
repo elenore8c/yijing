@@ -28,7 +28,7 @@ const triLib = tri.map((key, val) => <div key={val}>{tri[val].glyph}</div>)
       <div>{lines[1]}</div>
     </div>
   </div>
-    <img className="symbol" src="..\Yin_yang.svg.webp"></img>
+    <img className="symbol" itemType="webp" src="./assets/Yin_yang.svg.webp"></img>
 </>
   )
 }

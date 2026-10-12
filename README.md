@@ -1,4 +1,4 @@
-<p align="center"> <img width="100px" src="public\yijing.svg" /></p>
+<p align="center"> <img width="100px" src="public\assets\yijing.svg" /></p>
 
 
 

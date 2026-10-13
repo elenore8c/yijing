@@ -4,12 +4,10 @@ export default function Hex( { num } ) {
 
 return (
 <>
-    <p>
-        {wilHex[num].num}<br/>
-        {wilHex[num].char}<br/>
-        {wilHex[num].simpinyin}<br/>
-        {wilHex[num].name}<br/>
+    <div>
         {wilHex[num].hex}<br/>
+        {wilHex[num].num}. {wilHex[num].char} {wilHex[num].simpinyin}<br/>
+        {wilHex[num].name}<br/>
         {wilHex[num].thwan}<br/>
         {wilHex[num].img}<br/>
         {wilHex[num].line1}{wilHex[num].first}<br/>
@@ -19,7 +17,7 @@ return (
         {wilHex[num].line5}{wilHex[num].fifth}<br/>
         {wilHex[num].line6}{wilHex[num].sixth}<br/>
         {wilHex[num].seventh}<br/>
-    </p>
+    </div>
 </>
   )
 }

@@ -176,6 +176,17 @@ padding: 25px 0 0 0;
 transform:rotate(135deg);
 }
 
+/* five plum render */
+
+@media (min-width: 600px) {
+  .five-plum{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+
 /* date time five plum bar  */
 
 input{

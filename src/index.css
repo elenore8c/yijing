@@ -34,18 +34,18 @@ body{
 .hex-table{
   /* align-items: center; */
   display: grid;
-  /* grid-template-columns: repeat(8, clamp( 1.2em, 8vw, 30em));  */
-  /* grid-template-rows: repeat(8, clamp(1.2em, 8vw, 30em)); */
+  /* grid-template-columns: repeat(8, clamp( 1.2em, 4vw, 30em));  */
+  /* grid-template-rows: repeat(8, clamp(1.2em, 4vw, 30em)); */
   grid-template-rows: repeat(8, 1fr);
   grid-template-columns: repeat(8, 1fr);
-  column-gap: clamp(1em, 1vw, 10em);
+  column-gap: 30px;
   font-size: clamp( 2em, 4vw, 30em);
   padding: 10px;
 }
 
 .label-hex{
-/* font-size: clamp(1em, 10px, 5em); */
-font-size: 16px;
+/* font-size: clamp(1em, 1vw, 5em); */
+font-size: 15px;
 }
 
 .symbol{

@@ -5,8 +5,7 @@ export default function HexTable() {
 
   const hexGrid = wilHex.map((hex, val) => 
   <div key={val}>
-    <div className="label-hex">{val + 1}. {wilHex[val].char}<br/>
-    {wilHex[val].simpinyin}</div>
+    <div className="label-hex">{val + 1}</div>
     {wilHex[val].hex}</div>)
   
   return (

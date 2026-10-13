@@ -18,10 +18,14 @@
 body{
   font-family: adobe-fangsong-std;
   font-style: normal;
-  font-weight: 600;
+  /* font-weight: 600; */
   text-align: center;
   color: aquamarine;
   background-color: rgb(5, 5, 5);
+}
+
+.title-char{
+  font-size: clamp( 10px, 20px, 100px);
 }
 
 /* hex */
@@ -32,20 +36,18 @@ body{
 }
 
 .hex-table{
-  /* align-items: center; */
+  align-items: center;
   display: grid;
-  /* grid-template-columns: repeat(8, clamp( 1.2em, 4vw, 30em));  */
-  /* grid-template-rows: repeat(8, clamp(1.2em, 4vw, 30em)); */
-  grid-template-rows: repeat(8, 1fr);
-  grid-template-columns: repeat(8, 1fr);
-  column-gap: 30px;
-  font-size: clamp( 2em, 4vw, 30em);
-  padding: 10px;
+  grid-template-columns: repeat(8, clamp(15px, 35px, 100px)); 
+  grid-template-rows: repeat(8, clamp(20px, 50px, 200px));
+  /* grid-template-rows: repeat(8, 1fr); */
+  /* grid-template-columns: repeat(8, 1fr); */
+  font-size: clamp( 10px, 30px, 100px);
 }
 
 .label-hex{
-/* font-size: clamp(1em, 1vw, 5em); */
-font-size: 15px;
+font-size: clamp(8px, 12px, 50px);
+/* font-size: clamp(10px, 10px, 30px); */
 }
 
 .symbol{

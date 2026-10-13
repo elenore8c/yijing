@@ -3,8 +3,6 @@ import Hex from "./Hex"
 
 export default function FivePlum({ hexKeyOne, hexKeyTwo, hexKeyNuc }){
 
-// fate, subject trigrams course of change descriptor
-
 return(
  <div className='five-plum'>
     <Hex

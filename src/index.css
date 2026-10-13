@@ -1,48 +1,3 @@
-/* 8/18/26 
-styling for mobile / responsi
-goals: 
-
-basics:
-
-flexbox
-grid 
-spacing
-responsive
-
-
-contrast checker:
-Aim for a ratio of at least 4.5:1
-
-hex grid possible solutions:
-
-repeat(12, 1fr) intend to leave empty space in order to center content?
-gridColumn="span 8"           
-gridRow="span 2"
-
-
-tri wheel possible solutions:
-
-::before
-::after
-relative or fixed within responsive parent element
-
-https: //www.youtube.com/watch?v=i1FeOOhNnwU
-
-
-
--style for mobile layout
-    -label line dev
-    -arrange hsi and wen tri circles
-    -
-
-  -style for tablet
-  -style for laptop
-  -style for desktop
- */
-
-::root{
-  --
-}
 
  ::-webkit-scrollbar {
   width:5px;
@@ -100,14 +55,14 @@ body{
 
 .third{
   display: grid;
-  gap: 5px;
+  /* gap: 25px; */
   grid-template-columns: repeat(8, clamp(1em, 3vw, 2em));
 }
 
 
 .second{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .first{

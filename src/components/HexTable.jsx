@@ -12,6 +12,7 @@ export default function HexTable() {
   return (
     <div className="hex-container">
       <div className="hex-table">
+        {hexGridNum}
         {hexGrid}
       </div>
     </div>

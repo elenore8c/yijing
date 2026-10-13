@@ -6,7 +6,6 @@ export default function LineDev() {
 const triLib = tri.map((key, val) => <div key={val}>{tri[val].glyph}</div>)
   return (
    <>
-    {/* {triLib} */}
     <div className="line-dev">
         <div className="third">
          <div>{lines[7]}</div>

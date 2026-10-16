@@ -1,6 +1,5 @@
-
- ::-webkit-scrollbar {
-  width:5px;
+::-webkit-scrollbar {
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -15,65 +14,65 @@
   background: #7fffee;
 }
 
-body{
+body {
   font-family: adobe-fangsong-std;
   text-align: center;
   color: aquamarine;
   background-color: rgb(5, 5, 5);
 }
 
-.title-char{
-  font-size: clamp( 10px, 20px, 100px);
+.title-char {
+  font-size: clamp(10px, 20px, 100px);
 }
 
 /* hex */
 
-.hex-container{
+.hex-container {
   display: grid;
   justify-content: center;
 }
 
-.hex-table{
+.hex-table {
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(8, clamp(2em, 3vw, 1em)); 
-  grid-template-rows: repeat(8, clamp(2em, 3vw, 5em));
+  grid-template-columns: repeat(8, clamp(1.3em, 3vw, 1em));
+  grid-template-rows: repeat(8, clamp(1.8em, 3vw, 5em));
   /* grid-template-rows: repeat(8, 1fr); */
   /* grid-template-columns: repeat(8, 1fr); */
-  font-size: clamp(1em, 4vw, 5em);
+  font-size: clamp(1.6em, 4vw, 5em);
 }
 
-.label-hex{
+.label-hex {
   font-size: clamp(8px, 8px, 2em)
-/* font-size: clamp(10px, 10px, 30px); */
+    /* font-size: clamp(10px, 10px, 30px); */
 }
 
-.symbol{
+.symbol {
   width: clamp(4em, 6vw, 6em);
 }
 
 /* //linedev// */
 
-.line-dev{
+.line-dev {
   padding-top: 1em;
   justify-content: center;
   display: grid;
   font-size: clamp(2em, 4vw, 5em);
 }
 
-.third{
+.third {
   display: grid;
   /* gap: 25px; */
   grid-template-columns: repeat(8, clamp(1em, 3vw, 2em));
 }
 
 
-.second{
+.second {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-.first{
+.first {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* padding: 1em; */
@@ -81,7 +80,7 @@ body{
 
 /* wheel container position */
 
-.wh-containers{
+.wh-containers {
   gap: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -89,12 +88,12 @@ body{
 
 /* wheel item composition */
 
-.hsi-wh-container{
-display: grid;
-grid-template-columns: 50px 50px 50px;
-grid-template-rows: 50px 50px 50px;
-align-items: center;
-justify-content: center;
+.hsi-wh-container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .wen-wh-container {
@@ -105,44 +104,44 @@ justify-content: center;
   justify-content: center;
 }
 
-.nw{
-  transform:rotate(-45deg);
+.nw {
+  transform: rotate(-45deg);
 }
 
-.n{
-padding: 0 0 25px 0;
+.n {
+  padding: 0 0 25px 0;
 }
 
-.ne{
-  transform:rotate(45deg);
+.ne {
+  transform: rotate(45deg);
 }
 
-.w{
-transform:rotate(-90deg);
-padding: 0 0 25px 0;
+.w {
+  transform: rotate(-90deg);
+  padding: 0 0 25px 0;
 }
 
-.e{
-padding: 0 0 25px 0;
-transform:rotate(90deg);
+.e {
+  padding: 0 0 25px 0;
+  transform: rotate(90deg);
 }
 
-.sw{
-transform:rotate(-135deg);
+.sw {
+  transform: rotate(-135deg);
 }
 
-.s{
-padding: 25px 0 0 0;
+.s {
+  padding: 25px 0 0 0;
 }
 
-.se{
-transform:rotate(135deg);
+.se {
+  transform: rotate(135deg);
 }
 
 /* five plum render */
 
 @media (min-width: 600px) {
-  .five-plum{
+  .five-plum {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -152,7 +151,7 @@ transform:rotate(135deg);
 
 /* date time five plum bar  */
 
-input{
+input {
   position: fixed;
   font-family: inherit;
   bottom: 15px;
@@ -166,7 +165,7 @@ input{
   background-color: rgba(10, 10, 10, 0.753);
 }
 
-.datetime-bar{
+.datetime-bar {
   height: 2rem;
   width: 100%;
   position: fixed;
@@ -177,16 +176,16 @@ input{
   background-color: rgba(10, 10, 10, 0.726);
 }
 
-.greg{
+.greg {
   font-size: 0.9rem;
   position: fixed;
   bottom: -3px;
   left: 0px;
   background-color: rgba(10, 10, 10, 0.726);
-  
+
 }
 
-.luna{
+.luna {
   font-size: 0.9rem;
   position: fixed;
   bottom: -3px;
@@ -194,14 +193,14 @@ input{
   background-color: rgba(10, 10, 10, 0.726);
 }
 
-.time{
+.time {
   font-size: 0.8rem;
   position: fixed;
   bottom: -2px;
   right: 70px;
 }
 
-button{
+button {
   color: rgba(0, 255, 179, 0.493);
   border-color: #7fffee70;
   border-radius: 15%;
@@ -209,8 +208,7 @@ button{
   font-size: 0.7rem;
 }
 
-.blossoms{
+.blossoms {
   position: fixed;
   right: 0px;
 }
-

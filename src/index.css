@@ -40,11 +40,11 @@ body {
 
   /* grid-template-rows: repeat(8, 1fr); */
   /* grid-template-columns: repeat(8, 1fr); */
-  font-size: clamp(1.6em, 5vw, 5em);
+  font-size: clamp(1.6em, 4vw, 5em);
 }
 
 .label-hex {
-  font-size: clamp(8px, 8px, 2em)
+  font-size: clamp(8px, .7vw, 2em)
     /* font-size: clamp(10px, 10px, 30px); */
 }
 

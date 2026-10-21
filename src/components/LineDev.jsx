@@ -3,7 +3,6 @@ import { lines } from  "../utils/lines"
 import { tri } from "../utils/tri"
 
 export default function LineDev() {
-const triLib = tri.map((key, val) => <div key={val}>{tri[val].glyph}</div>)
   return (
    <>
     <div className="line-dev">
@@ -27,7 +26,9 @@ const triLib = tri.map((key, val) => <div key={val}>{tri[val].glyph}</div>)
       <div>{lines[1]}</div>
     </div>
   </div>
-    <img className="symbol" itemType="webp" src="./assets/Yin_yang.svg.webp"></img>
+  <div className="symbol-container">
+  <img className="symbol" itemType="webp" src="./assets/Yin_yang.svg.webp"/>
+  </div>
 </>
   )
 }

@@ -4,7 +4,7 @@ export default function Header() {
 
   return (
 <>
-<h1 className="title-char">易經 <br/>
+<h1 className="header">易經 <br/>
 yijing</h1>
 </>
   )

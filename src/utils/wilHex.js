@@ -31,7 +31,7 @@ export const wilHex = [
     "fourth": "Fourth 9:\n Wavering flying over the depths. No blame.",
     "fifth": "Fifth 9:\n Flying dragon in the heavens.\n It furthers one to see the great one.",
     "sixth": "Top 9:\n Arrogant dragon will have cause to repent.",
-    "seventh": "All 9 \u4dc0:\n There appears a flight of dragons without heads.\n Good fortune."
+    "seventh": " All 9 : \n There appears a flight of dragons without heads.\n Good fortune."
   },
   {
     "num": 2,

@@ -16,12 +16,13 @@
 
 body {
   font-family: adobe-fangsong-std;
-  text-align: center;
   color: aquamarine;
   background-color: rgb(5, 5, 5);
+  /* text-align: center; */
 }
 
-.title-char {
+.header {
+  text-align: center;
   font-size: clamp(10px, 20px, 100px);
 }
 
@@ -33,29 +34,22 @@ body {
 }
 
 .hex-table {
-  align-items: center;
   display: grid;
+  text-align: center;
   grid-template-columns: repeat(8, clamp(1.3em, 3vw, 1em));
   grid-template-rows: repeat(8, clamp(1.8em, 3vw, 5em));
-
-  /* grid-template-rows: repeat(8, 1fr); */
-  /* grid-template-columns: repeat(8, 1fr); */
   font-size: clamp(1.6em, 4vw, 5em);
 }
 
 .label-hex {
   font-size: clamp(8px, .7vw, 2em)
-    /* font-size: clamp(10px, 10px, 30px); */
-}
-
-.symbol {
-  width: clamp(4em, 6vw, 6em);
 }
 
 /* //linedev// */
 
 .line-dev {
   padding-top: 1em;
+  text-align: center;
   justify-content: center;
   display: grid;
   font-size: clamp(2em, 4vw, 5em);
@@ -63,7 +57,6 @@ body {
 
 .third {
   display: grid;
-  /* gap: 25px; */
   grid-template-columns: repeat(8, clamp(1em, 3vw, 2em));
 }
 
@@ -76,13 +69,23 @@ body {
 .first {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* padding: 1em; */
+}
+
+.symbol-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.symbol {
+width: clamp(2em, 6vw, 6em);
 }
 
 /* wheel container position */
 
 .wh-containers {
   gap: auto;
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -149,16 +152,16 @@ body {
   }
 }
 
-
 /* date time five plum bar  */
+
 
 input {
   position: fixed;
   font-family: inherit;
-  bottom: 15px;
+  top: 0px;
   left: 0;
   width: 95px;
-  height: 15px;
+  height: clamp(1.5em, 2vw, 2em);
   border: 0px;
   border-style: dotted;
   border-color: rgb(55, 43, 226);
@@ -213,12 +216,27 @@ button {
   position: fixed;
   right: 0px;
 }
+/* hex div */
+
+.hex {
+  width:  clamp(33em, 5vw, 1em);
+  justify-content: center;
+}
+
+.hex-header,
+.hex-labels{
+  text-align: center;
+}
 
 .hex-glyph{
 font-size: clamp(4em, 4vw, 5em);
+text-align: center;
 }
 
+
+
 .hex-name{
+  text-align: center;
   padding-bottom: 1em;
 }
 

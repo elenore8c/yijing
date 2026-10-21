@@ -4,7 +4,7 @@ import moonTime from 'moon-time';
 import { wilHex } from "../utils/wilHex";
 import '../index.css'
 
-export default function FivePlumBar(){
+export default function HexRender(){
 
     const [isShown, setIsShown] = useState(true);
 
